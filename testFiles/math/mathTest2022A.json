@@ -1,0 +1,81 @@
+{
+    "title": "Математикийн тест A - 2022",
+    "description": "2022 оны онлайн математикийн тест",
+    "duration": 90,
+    "is_active": true,
+    "total_points": 100,
+    "math_test_parts": [
+      {
+        "title": "Сонгох асуултууд",
+        "order": 1,
+        "math_test_sections": [
+          {
+            "title": "Сонгох даалгавар",
+            "description": "Зөвхөн нэг зөв хариулттай асуултууд.",
+            "order": 1,
+            "math_test_questions": [
+              {
+                "type": "multiple_choice",
+                "content": "\\( 3^{-2} \\) утгыг олоорой.",
+                "answer": "\\( \\frac{1}{9} \\)",
+                "points": 1,
+                "order": 1,
+                "choices": [
+                  "\\( \\frac{1}{9} \\)", 
+                  "\\( \\frac{1}{6} \\)", 
+                  "\\( \\frac{1}{8} \\)", 
+                  "-6",
+                  "1"
+                ]
+              },
+              {
+                "type": "multiple_choice",
+                "content": "Ангийн есөн сурагч гэрийн даалгаварт тус бүр \\( \\{2, 1, 3, 5, 1, 2, 4, 1, 3\\} \\) бодлого боджээ. Өгөгдлийн медианыг олоорой.",
+                "answer": "2",
+                "points": 1,
+                "order": 2,
+                "choices": ["3", "1", "4", "2", "5"]
+              },
+              {
+                "type": "multiple_choice",
+                "content": "Хэрэв \\( f(x) = 3x - 1 \\) бол \\( f(3) \\)-ийг олоорой.",
+                "answer": "8",
+                "points": 1,
+                "order": 3,
+                "choices": ["-1", "3", "8", "10", "9"]
+              },
+              {
+                "type": "multiple_choice",
+                "content": "\\( \\sum_{i=1}^{n} i \\) утгыг олоорой.",
+                "answer": "\\( \\frac{n(n+1)}{2} \\)",
+                "points": 2,
+                "order": 4,
+                "choices": [
+                  "\\( \\frac{n(n+1)}{2} \\)",
+                  "\\( \\frac{n(n-1)}{2} \\)",
+                  "\\( n^2 \\)", 
+                  "\\( 2n \\)", 
+                  "n"
+                ]
+              },
+              {
+                "type": "multiple_choice",
+                "content": "",
+                "answer": "\\( \\frac{n(n+1)}{2} \\)",
+                "points": 2,
+                "order": 4,
+                "choices": [
+                  "\\( \\frac{n(n+1)}{2} \\)",
+                  "\\( \\frac{n(n-1)}{2} \\)",
+                  "\\( n^2 \\)", 
+                  "\\( 2n \\)", 
+                  "n"
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

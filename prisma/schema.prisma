@@ -1,0 +1,1344 @@
+generator client {
+  provider        = "prisma-client-js"
+  previewFeatures = ["interactiveTransactions"]
+  binaryTargets   = ["debian-openssl-1.1.x", "debian-openssl-3.0.x", "windows"]
+}
+
+datasource db {
+  provider = "postgresql"
+  url      = "postgresql://postgres:Power9911@35.236.146.80:5432/lever-db"
+}
+
+model User {
+  id                     Int                         @id(map: "PK_user_id") @default(autoincrement())
+  auth0_id               String                      @unique @db.VarChar(255)
+  phone                  String?                     @unique @db.VarChar(255)
+  email                  String                      @unique @db.VarChar(255)
+  type                   String                      @default("default") @db.VarChar(255)
+  full_name              String                      @db.VarChar(255)
+  picture                String?                     @db.VarChar(255)
+  created_at             DateTime                    @default(now()) @db.Timestamp(6)
+  updated_at             DateTime                    @default(now()) @db.Timestamp(6)
+  is_deleted             Boolean                     @default(false)
+  first_login            Boolean                     @default(true)
+  exam_reponse           ExamInternationalResponse[]
+  test_response_english  TestResponseEnglish[]
+  general_exam_response  GeneralExamResponse[]
+  CourseLessonResponse   CourseLessonResponse[]
+  CourseQuestionResponse CourseQuestionResponse[]
+  english_test_response  EnglishTestResponse[]
+  math_test_response     MathTestResponse[]
+
+  @@map("t_user")
+}
+
+model ExamInternational {
+  id          Int    @id(map: "PK_intl_exam_id") @default(autoincrement())
+  type        String @db.VarChar(255)
+  description String @db.Text
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  listening                 Listening?
+  // listening_answer_id Int?
+  reading                   Reading?
+  // reading_answer_id   Int?
+  writing                   Writing?
+  speaking                  Speaking?
+  ExamInternationalResponse ExamInternationalResponse[]
+
+  @@map("t_intl_exam")
+}
+
+model ExamInternationalResponse {
+  id      Int    @id(map: "PK_intl_exam_response_id") @default(autoincrement())
+  user_id String
+  exam_id Int
+
+  score String
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  start_time  DateTime  @default(now()) @db.Timestamp(6)
+  end_time    DateTime?
+  duration    String?
+  is_finished Boolean   @default(false)
+  finished_at DateTime?
+
+  user User              @relation(fields: [user_id], references: [auth0_id], onDelete: Restrict, onUpdate: Restrict)
+  exam ExamInternational @relation(fields: [exam_id], references: [id], onDelete: Restrict, onUpdate: NoAction)
+
+  // listening_response  ListeningResponse? @relation(fields: [listening_response_id], references: [id])
+  ListeningResponse ListeningResponse?
+  ReadingResponse   ReadingResponse?
+  WritingResponse   WritingResponse?
+  SpeakingResponse  SpeakingResponse?
+
+  @@map("t_intl_exam_reponse")
+}
+
+model Listening {
+  id      Int @id(map: "PK_listening_id") @default(autoincrement())
+  exam_id Int @unique
+
+  page1 String @db.Text
+  page2 String @db.Text
+  page3 String @db.Text
+  page4 String @db.Text
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  exam            ExamInternational @relation(fields: [exam_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  ListeningAnswer ListeningAnswer?
+
+  @@map("t_listening")
+}
+
+model ListeningAnswer {
+  id           Int     @id(map: "PK_listening_answer_id") @default(autoincrement())
+  listening_id Int     @unique
+  description  String? @db.Text
+  a1           String
+  a2           String
+  a3           String
+  a4           String
+  a5           String
+  a6           String
+  a7           String
+  a8           String
+  a9           String
+  a10          String
+  a11          String
+  a12          String
+  a13          String
+  a14          String
+  a15          String
+  a16          String
+  a17          String
+  a18          String
+  a19          String
+  a20          String
+  a21          String
+  a22          String
+  a23          String
+  a24          String
+  a25          String
+  a26          String
+  a27          String
+  a28          String
+  a29          String
+  a30          String
+  a31          String
+  a32          String
+  a33          String
+  a34          String
+  a35          String
+  a36          String
+  a37          String
+  a38          String
+  a39          String
+  a40          String
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  listening          Listening           @relation(fields: [listening_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  listening_response ListeningResponse[]
+
+  @@map("t_listening_answer")
+}
+
+model ListeningResponse {
+  id                  Int @id(map: "PK_listening_response_id") @default(autoincrement())
+  listening_answer_id Int
+  exam_id             Int @unique
+
+  a1  String?
+  a2  String?
+  a3  String?
+  a4  String?
+  a5  String?
+  a6  String?
+  a7  String?
+  a8  String?
+  a9  String?
+  a10 String?
+  a11 String?
+  a12 String?
+  a13 String?
+  a14 String?
+  a15 String?
+  a16 String?
+  a17 String?
+  a18 String?
+  a19 String?
+  a20 String?
+  a21 String?
+  a22 String?
+  a23 String?
+  a24 String?
+  a25 String?
+  a26 String?
+  a27 String?
+  a28 String?
+  a29 String?
+  a30 String?
+  a31 String?
+  a32 String?
+  a33 String?
+  a34 String?
+  a35 String?
+  a36 String?
+  a37 String?
+  a38 String?
+  a39 String?
+  a40 String?
+
+  score String
+
+  is_analyzed Boolean   @default(false)
+  analyzed_at DateTime?
+  created_at  DateTime  @default(now()) @db.Timestamp(6)
+  updated_at  DateTime  @default(now()) @db.Timestamp(6)
+  is_deleted  Boolean   @default(false)
+
+  listening_answer          ListeningAnswer           @relation(fields: [listening_answer_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  ExamInternationalResponse ExamInternationalResponse @relation(fields: [exam_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+
+  @@map("t_listening_response")
+}
+
+model Reading {
+  id      Int @id(map: "PK_reading_id") @default(autoincrement())
+  exam_id Int @unique
+
+  page1 String @db.Text
+  page2 String @db.Text
+  page3 String @db.Text
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  exam          ExamInternational @relation(fields: [exam_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  ReadingAnswer ReadingAnswer?
+
+  @@map("t_reading")
+}
+
+model ReadingAnswer {
+  id          Int     @id(map: "PK_reading_answer_id") @default(autoincrement())
+  reading_id  Int     @unique
+  description String? @db.Text
+  a1          String
+  a2          String
+  a3          String
+  a4          String
+  a5          String
+  a6          String
+  a7          String
+  a8          String
+  a9          String
+  a10         String
+  a11         String
+  a12         String
+  a13         String
+  a14         String
+  a15         String
+  a16         String
+  a17         String
+  a18         String
+  a19         String
+  a20         String
+  a21         String
+  a22         String
+  a23         String
+  a24         String
+  a25         String
+  a26         String
+  a27         String
+  a28         String
+  a29         String
+  a30         String
+  a31         String
+  a32         String
+  a33         String
+  a34         String
+  a35         String
+  a36         String
+  a37         String
+  a38         String
+  a39         String
+  a40         String
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  reading          Reading           @relation(fields: [reading_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  reading_response ReadingResponse[]
+
+  @@map("t_reading_answer")
+}
+
+model ReadingResponse {
+  id                Int @id(map: "PK_reading_response_id") @default(autoincrement())
+  reading_answer_id Int
+  exam_id           Int @unique
+
+  a1  String?
+  a2  String?
+  a3  String?
+  a4  String?
+  a5  String?
+  a6  String?
+  a7  String?
+  a8  String?
+  a9  String?
+  a10 String?
+  a11 String?
+  a12 String?
+  a13 String?
+  a14 String?
+  a15 String?
+  a16 String?
+  a17 String?
+  a18 String?
+  a19 String?
+  a20 String?
+  a21 String?
+  a22 String?
+  a23 String?
+  a24 String?
+  a25 String?
+  a26 String?
+  a27 String?
+  a28 String?
+  a29 String?
+  a30 String?
+  a31 String?
+  a32 String?
+  a33 String?
+  a34 String?
+  a35 String?
+  a36 String?
+  a37 String?
+  a38 String?
+  a39 String?
+  a40 String?
+
+  score String
+
+  is_analyzed Boolean   @default(false)
+  analyzed_at DateTime?
+  created_at  DateTime  @default(now()) @db.Timestamp(6)
+  updated_at  DateTime  @default(now()) @db.Timestamp(6)
+  is_deleted  Boolean   @default(false)
+
+  reading_answer            ReadingAnswer             @relation(fields: [reading_answer_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  ExamInternationalResponse ExamInternationalResponse @relation(fields: [exam_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+
+  @@map("t_reading_response")
+}
+
+model Writing {
+  id      Int @id(map: "PK_writing_id") @default(autoincrement())
+  exam_id Int @unique
+
+  page1 String  @db.Text
+  type1 String  @default("default") @db.Text
+  link1 String? @db.Text
+
+  page2 String  @db.Text
+  type2 String  @default("default") @db.Text
+  link2 String? @db.Text
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  exam ExamInternational @relation(fields: [exam_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+
+  @@map("t_writing")
+}
+
+model WritingResponse {
+  id      Int @id(map: "PK_writing_response_id") @default(autoincrement())
+  exam_id Int @unique
+
+  essay1 String @db.Text
+  essay2 String @db.Text
+
+  score String
+
+  is_analyzed Boolean   @default(false)
+  analyzed_at DateTime?
+  created_at  DateTime  @default(now()) @db.Timestamp(6)
+  updated_at  DateTime  @default(now()) @db.Timestamp(6)
+  is_deleted  Boolean   @default(false)
+
+  ExamInternationalResponse ExamInternationalResponse @relation(fields: [exam_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+
+  @@map("t_writing_response")
+}
+
+model Speaking {
+  id      Int @id(map: "PK_speaking_id") @default(autoincrement())
+  exam_id Int @unique
+
+  page1_1      String @db.Text
+  page1_1_link String @db.Text
+
+  page1_2      String @db.Text
+  page1_2_link String @db.Text
+
+  page1_3      String @db.Text
+  page1_3_link String @db.Text
+
+  page1_4      String? @db.Text
+  page1_4_link String? @db.Text
+
+  page1_5      String? @db.Text
+  page1_5_link String? @db.Text
+
+  page1_6      String? @db.Text
+  page1_6_link String? @db.Text
+
+  page2 String @db.Text
+
+  page3_1      String @db.Text
+  page3_1_link String @db.Text
+
+  page3_2      String @db.Text
+  page3_2_link String @db.Text
+
+  page3_3      String @db.Text
+  page3_3_link String @db.Text
+
+  page3_4      String? @db.Text
+  page3_4_link String? @db.Text
+
+  page3_5      String? @db.Text
+  page3_5_link String? @db.Text
+
+  page3_6      String? @db.Text
+  page3_6_link String? @db.Text
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  exam ExamInternational @relation(fields: [exam_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+
+  @@map("t_speaking")
+}
+
+model SpeakingResponse {
+  id      Int @id(map: "PK_speaking_response_id") @default(autoincrement())
+  exam_id Int @unique
+
+  q1_1_link String  @db.Text
+  q1_2_link String  @db.Text
+  q1_3_link String  @db.Text
+  q1_4_link String? @db.Text
+  q1_5_link String? @db.Text
+  q1_6_link String? @db.Text
+
+  q2_link String @db.Text
+
+  q3_1_link String  @db.Text
+  q3_2_link String  @db.Text
+  q3_3_link String  @db.Text
+  q3_4_link String? @db.Text
+  q3_5_link String? @db.Text
+  q3_6_link String? @db.Text
+
+  score String
+
+  is_analyzed Boolean   @default(false)
+  analyzed_at DateTime?
+  created_at  DateTime  @default(now()) @db.Timestamp(6)
+  updated_at  DateTime  @default(now()) @db.Timestamp(6)
+  is_deleted  Boolean   @default(false)
+
+  ExamInternationalResponse ExamInternationalResponse @relation(fields: [exam_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+
+  @@map("t_speaking_response")
+}
+
+model Question {
+  id Int @id(map: "PK_question_id") @default(autoincrement())
+
+  type    String
+  subject String
+  levels  String[]
+  topic   String
+  text    String
+
+  answer String
+
+  choices String[]
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  general_english_tests QuestionOnGeneralTestEnglish[]
+
+  @@map("t_question")
+}
+
+model GeneralTestEnglish {
+  id Int @id(map: "PK_general_test_english_id") @default(autoincrement())
+
+  title       String?
+  description String?
+
+  format String
+  levels String[]
+
+  duration  Int     @default(900)
+  is_active Boolean @default(false)
+
+  questions QuestionOnGeneralTestEnglish[]
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  test_response_english TestResponseEnglish[]
+
+  @@map("t_general_test_english")
+}
+
+model QuestionOnGeneralTestEnglish {
+  question_id Int
+  question    Question @relation(fields: [question_id], references: [id])
+
+  general_test_english_id Int
+  general_test_english    GeneralTestEnglish @relation(fields: [general_test_english_id], references: [id])
+
+  created_at        DateTime                  @default(now()) @db.Timestamp(6)
+  updated_at        DateTime                  @default(now()) @db.Timestamp(6)
+  is_deleted        Boolean                   @default(false)
+  question_response QuestionResponseEnglish[]
+
+  @@id([general_test_english_id, question_id])
+  @@map("t_question_on_general_test_english")
+}
+
+model TestResponseEnglish {
+  id Int @id(map: "PK_general_english_test_response_id") @default(autoincrement())
+
+  user_id String
+
+  test_id Int
+
+  total_question  Int
+  total_sumbitted Int @default(0)
+  total_correct   Int @default(0)
+  total_incorrect Int @default(0)
+
+  factor     Float   @default(0)
+  percentage String?
+
+  is_finished   Boolean   @default(false)
+  finished_at   DateTime? @db.Timestamp(6)
+  time_took_sec Int?
+  time_took     String?
+
+  finish_before DateTime @db.Timestamp(6)
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  test              GeneralTestEnglish        @relation(fields: [test_id], references: [id])
+  user              User                      @relation(fields: [user_id], references: [auth0_id])
+  question_response QuestionResponseEnglish[]
+
+  @@map("t_general_english_test_response")
+}
+
+model QuestionResponseEnglish {
+  id Int @id(map: "PK_english_question_response_id") @default(autoincrement())
+
+  response   String
+  is_correct Boolean?
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  question                 QuestionOnGeneralTestEnglish @relation(fields: [general_test_english_id, question_id], references: [general_test_english_id, question_id], onDelete: NoAction, onUpdate: NoAction)
+  general_test_english_id  Int
+  question_id              Int
+  test_response_english    TestResponseEnglish          @relation(fields: [test_response_english_id], references: [id])
+  test_response_english_id Int
+
+  @@map("t_question_response_english")
+}
+
+model GeneralExam {
+  id Int @id(map: "PK_general_exam") @default(autoincrement())
+
+  title       String?
+  description String?
+
+  format String
+  levels String[]
+
+  duration  Int     @default(900)
+  is_active Boolean @default(false)
+
+  // change
+  exam_questions QuestionOnGeneralExam[]
+
+  description_blocks Json[] @default([])
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  general_exam_response GeneralExamResponse[]
+
+  @@map("t_general_exam")
+}
+
+model ExamQuestion {
+  id Int @id(map: "PK_exam_question_id") @default(autoincrement())
+
+  type           String // default, combination
+  subject        String
+  levels         String[]
+  topic          String
+  text           String? // with format
+  index          Int
+  index_to_show  String
+  sub_index_type String?  @default("alphabetic") // numeric
+
+  answer  String
+  choices String[]
+
+  combination_keys     String[]
+  combination_values   String[]
+  combinations_answers Json[]
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  general_english_tests QuestionOnGeneralExam[]
+
+  @@map("t_exam_question")
+}
+
+model QuestionOnGeneralExam {
+  exam_question_id Int
+  exam_question    ExamQuestion @relation(fields: [exam_question_id], references: [id])
+
+  general_exam_id Int
+  general_exam    GeneralExam @relation(fields: [general_exam_id], references: [id])
+
+  created_at             DateTime                      @default(now()) @db.Timestamp(6)
+  updated_at             DateTime                      @default(now()) @db.Timestamp(6)
+  is_deleted             Boolean                       @default(false)
+  exam_question_response GeneralExamQuestionResponse[]
+
+  @@id([general_exam_id, exam_question_id])
+  @@map("t_question_on_general_exam")
+}
+
+model GeneralExamResponse {
+  id Int @id(map: "PK_general_exam_response_id") @default(autoincrement())
+
+  user_id String
+  test_id Int
+
+  total_question  Int
+  total_sumbitted Int @default(0)
+  total_correct   Int @default(0)
+  total_incorrect Int @default(0)
+
+  factor     Float   @default(0)
+  percentage String?
+
+  is_finished   Boolean   @default(false)
+  finished_at   DateTime? @db.Timestamp(6)
+  time_took_sec Int?
+  time_took     String?
+
+  finish_before DateTime @db.Timestamp(6)
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  general_exam                   GeneralExam                   @relation(fields: [test_id], references: [id])
+  user                           User                          @relation(fields: [user_id], references: [auth0_id])
+  general_exam_question_response GeneralExamQuestionResponse[]
+
+  @@map("t_general_exam_response")
+}
+
+model GeneralExamQuestionResponse {
+  id Int @id(map: "PK_general_exam_question_response_id") @default(autoincrement())
+
+  response   String
+  is_correct Boolean?
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  exam_question            QuestionOnGeneralExam @relation(fields: [general_exam_id, exam_question_id], references: [general_exam_id, exam_question_id], onDelete: NoAction, onUpdate: NoAction)
+  general_exam_id          Int
+  exam_question_id         Int
+  general_exam_response    GeneralExamResponse   @relation(fields: [general_exam_response_id], references: [id])
+  general_exam_response_id Int
+
+  @@map("t_general_exam_question_response")
+}
+
+model IeltsAcademy {
+  id          Int      @id(map: "PK_ielts_academy_id") @default(autoincrement())
+  name        String   @db.VarChar(255)
+  description String?  @db.VarChar(255)
+  rating      Float    @default(0)
+  updated_at  DateTime @updatedAt @db.Timestamp(6)
+  created_at  DateTime @default(now()) @db.Timestamp(6)
+
+  @@map("t_ielts_academy")
+}
+
+// online course model
+model Course {
+  id          Int    @id(map: "PK_course_id") @default(autoincrement())
+  title       String @db.VarChar(255)
+  description String @db.Text
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  lessons Lesson[]
+
+  @@map("t_course")
+}
+
+// lesson model
+model Lesson {
+  id          Int    @id(map: "PK_lesson_id") @default(autoincrement())
+  title       String @db.VarChar(255)
+  description String @db.Text
+  videoUrl    String @db.Text
+  course_id   Int
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  course         Course                 @relation(fields: [course_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  responses      CourseLessonResponse[]
+  CourseQuestion CourseQuestion[]
+
+  @@map("t_lesson")
+}
+
+// question model
+model CourseQuestion {
+  id            Int      @id(map: "PK_course_question_id") @default(autoincrement())
+  text          String   @db.Text
+  choices       String[] @db.Text
+  correctAnswer String   @db.Text
+  lesson_id     Int
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  lesson    Lesson                   @relation(fields: [lesson_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  responses CourseQuestionResponse[]
+
+  @@map("t_course_question")
+}
+
+// lesson response model
+model CourseLessonResponse {
+  id        Int    @id(map: "PK_lesson_response_id") @default(autoincrement())
+  user_id   String @db.VarChar(255)
+  lesson_id Int
+
+  is_completed Boolean   @default(false)
+  completed_at DateTime?
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  lesson    Lesson                   @relation(fields: [lesson_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  user      User                     @relation(fields: [user_id], references: [auth0_id], onDelete: Restrict, onUpdate: Restrict)
+  responses CourseQuestionResponse[]
+
+  @@map("t_course_lesson_response")
+}
+
+// question response model
+model CourseQuestionResponse {
+  id          Int    @id(map: "PK_question_response_id") @default(autoincrement())
+  user_id     String @db.VarChar(255)
+  question_id Int
+
+  course_lesson_response_id Int
+  response                  String   @db.Text
+  is_correct                Boolean?
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  question        CourseQuestion       @relation(fields: [question_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+  user            User                 @relation(fields: [user_id], references: [auth0_id], onDelete: Restrict, onUpdate: Restrict)
+  lesson_response CourseLessonResponse @relation(fields: [course_lesson_response_id], references: [id], onDelete: Restrict, onUpdate: Restrict)
+
+  @@map("t_question_response")
+}
+
+// ###################################################################################
+// ################################## NEWER VERSION ##################################
+// ###################################################################################
+
+model EnglishTest {
+  id Int @id(map: "PK_english_test_id") @default(autoincrement())
+
+  title       String?
+  description String?
+
+  duration     Int     @default(7200)
+  is_active    Boolean @default(false)
+  total_points Int?
+
+  english_test_parts EnglishTestPart[]
+
+  created_at          DateTime              @default(now()) @db.Timestamp(6)
+  updated_at          DateTime              @default(now()) @db.Timestamp(6)
+  is_deleted          Boolean               @default(false)
+  // EnglishTestResponse EnglishTestResponse[]
+  EnglishTestResponse EnglishTestResponse[]
+
+  @@map("t_english_test")
+}
+
+model EnglishTestPart {
+  id    Int     @id(map: "PK_english_test_part_id") @default(autoincrement())
+  title String?
+  order Int
+
+  english_test_id       Int
+  english_test          EnglishTest          @relation(fields: [english_test_id], references: [id])
+  english_test_sections EnglishTestSection[]
+
+  created_at              DateTime                  @default(now()) @db.Timestamp(6)
+  updated_at              DateTime                  @default(now()) @db.Timestamp(6)
+  is_deleted              Boolean                   @default(false)
+  EnglishTestPartResponse EnglishTestPartResponse[]
+
+  @@map("t_english_test_part")
+}
+
+model EnglishTestSection {
+  id Int @id(map: "PK_english_test_section_id") @default(autoincrement())
+
+  title       String
+  description String?
+  order       Int
+
+  english_test_part_id             Int
+  english_test_part                EnglishTestPart                @relation(fields: [english_test_part_id], references: [id])
+  english_test_tasks               EnglishTestTask[]
+  english_test_task_match          EnglishTestMatchTask[]
+  english_test_task_multiple_blank EnglishTestMultipleBlankTask[]
+
+  created_at                 DateTime                     @default(now()) @db.Timestamp(6)
+  updated_at                 DateTime                     @default(now()) @db.Timestamp(6)
+  is_deleted                 Boolean                      @default(false)
+  EnglishTestSectionResponse EnglishTestSectionResponse[]
+
+  @@map("t_english_test_section")
+}
+
+model EnglishTestTask {
+  id           Int     @id(map: "PK_english_test_task_id") @default(autoincrement())
+  description  String
+  content      String?
+  should_index Boolean
+
+  english_test_section_id Int
+  english_test_section    EnglishTestSection @relation(fields: [english_test_section_id], references: [id])
+
+  english_test_questions EnglishTestQuestion[]
+
+  created_at              DateTime                  @default(now()) @db.Timestamp(6)
+  updated_at              DateTime                  @default(now()) @updatedAt
+  is_deleted              Boolean                   @default(false)
+  EnglishTestTaskResponse EnglishTestTaskResponse[]
+
+  @@map("t_english_test_task")
+}
+
+model EnglishTestMatchTask {
+  id                           Int                        @id(map: "PK_english_english_test_match_task_id") @default(autoincrement())
+  description                  String
+  english_test_section_id      Int
+  english_test_section         EnglishTestSection?        @relation(fields: [english_test_section_id], references: [id])
+  english_test_match_questions EnglishTestQuestionMatch[]
+
+  created_at               DateTime                   @default(now()) @db.Timestamp(6)
+  updated_at               DateTime                   @default(now()) @updatedAt
+  is_deleted               Boolean                    @default(false)
+  EnglishTestMatchResponse EnglishTestMatchResponse[]
+
+  @@map("t_english_test_match_task")
+}
+
+model EnglishTestQuestionMatch {
+  id Int @id(map: "PK_english_test_question_match_id") @default(autoincrement())
+
+  answer String
+
+  choices String[]
+  matcher String
+
+  points Int @default(1)
+
+  task_id Int
+  task    EnglishTestMatchTask @relation(fields: [task_id], references: [id])
+
+  created_at                       DateTime                           @default(now()) @db.Timestamp(6)
+  updated_at                       DateTime                           @default(now()) @db.Timestamp(6)
+  is_deleted                       Boolean                            @default(false)
+  EnglishTestQuestionMatchResponse EnglishTestQuestionMatchResponse[]
+
+  @@map("t_english_test_question_match")
+}
+
+model EnglishTestMultipleBlankTask {
+  id Int @id(map: "PK_task_multiple_blank_task_id") @default(autoincrement())
+
+  description                               String
+  content                                   String
+  english_test_section_id                   Int
+  english_test_section                      EnglishTestSection?                    @relation(fields: [english_test_section_id], references: [id])
+  english_test_multiple_blank_questions     EnglishTestMutlipleBlankQuestion[]
+  created_at                                DateTime                               @default(now()) @db.Timestamp(6)
+  updated_at                                DateTime                               @default(now()) @updatedAt
+  is_deleted                                Boolean                                @default(false)
+  english_test_multiple_blank_task_response EnglishTestMultipleBlankTaskResponse[]
+
+  @@map("t_english_test_multiple_blank_task")
+}
+
+model EnglishTestMutlipleBlankQuestion {
+  id Int @id(map: "PK_english_test_multiple_blank_question_id") @default(autoincrement())
+
+  answer  String
+  choices String[]
+
+  points                              Int                          @default(1)
+  order                               Int
+  english_test_multiple_blank_task_id Int
+  english_test_multiple_blank_task    EnglishTestMultipleBlankTask @relation(fields: [english_test_multiple_blank_task_id], references: [id])
+
+  created_at                               DateTime                                   @default(now()) @db.Timestamp(6)
+  updated_at                               DateTime                                   @default(now()) @db.Timestamp(6)
+  is_deleted                               Boolean                                    @default(false)
+  EnglishTestMultipleBlankQuestionResponse EnglishTestMultipleBlankQuestionResponse[]
+
+  @@map("t_english_test_multiple_blank_question")
+}
+
+enum QuestionType {
+  MULTIPLE_CHOICES
+  FILL_IN_THE_BLANK
+  MULTIPLE_CHOICE_FORK
+}
+
+model EnglishTestQuestion {
+  id Int @id(map: "PK_english_test_question_id") @default(autoincrement())
+
+  type    QuestionType
+  content String
+  answer  String
+
+  choices String[]
+
+  points Int @default(1)
+  order  Int
+
+  task_id Int
+  task    EnglishTestTask @relation(fields: [task_id], references: [id])
+
+  created_at                  DateTime                      @default(now()) @db.Timestamp(6)
+  updated_at                  DateTime                      @default(now()) @db.Timestamp(6)
+  is_deleted                  Boolean                       @default(false)
+  EnglishTestQuestionResponse EnglishTestQuestionResponse[]
+
+  @@map("t_english_test_question")
+}
+
+model EnglishTestResponse {
+  id Int @id(map: "PK_english_test_response_id") @default(autoincrement())
+
+  user_id String
+  user    User   @relation(fields: [user_id], references: [auth0_id])
+
+  english_test_id Int
+  english_test    EnglishTest @relation(fields: [english_test_id], references: [id])
+
+  total_questions    Int
+  total_submitted    Int    @default(0)
+  total_correct      Int    @default(0)
+  total_incorrect    Int    @default(0)
+  total_points       Int    @default(0)
+  percentage_correct Float?
+
+  is_finished   Boolean   @default(false)
+  finished_at   DateTime?
+  time_took_sec Int?
+  time_took     String?
+
+  finish_before DateTime
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  is_deleted Boolean  @default(false)
+
+  english_test_part_responses EnglishTestPartResponse[]
+
+  @@map("t_english_test_response")
+}
+
+model EnglishTestPartResponse {
+  id Int @id(map: "PK_english_test_part_response_id") @default(autoincrement())
+
+  english_test_response_id Int
+  english_test_response    EnglishTestResponse @relation(fields: [english_test_response_id], references: [id])
+
+  english_test_part_id Int
+  english_test_part    EnglishTestPart @relation(fields: [english_test_part_id], references: [id])
+
+  english_test_section_responses EnglishTestSectionResponse[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  is_deleted Boolean  @default(false)
+
+  @@map("t_english_test_part_response")
+}
+
+model EnglishTestSectionResponse {
+  id Int @id(map: "PK_english_test_section_response_id") @default(autoincrement())
+
+  english_test_part_response_id Int
+  english_test_part_response    EnglishTestPartResponse @relation(fields: [english_test_part_response_id], references: [id])
+
+  english_test_section_id Int
+  english_test_section    EnglishTestSection @relation(fields: [english_test_section_id], references: [id])
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  is_deleted Boolean  @default(false)
+
+  english_test_task_responses          EnglishTestTaskResponse[]
+  english_test_match_response          EnglishTestMatchResponse[]
+  english_test_multiple_blank_response EnglishTestMultipleBlankTaskResponse[]
+
+  @@map("t_english_test_section_response")
+}
+
+model EnglishTestTaskResponse {
+  id Int @id(map: "PK_english_test_task_response_id") @default(autoincrement())
+
+  english_test_section_response_id Int
+  english_test_section_response    EnglishTestSectionResponse @relation(fields: [english_test_section_response_id], references: [id])
+
+  english_test_task_id Int
+  english_test_task    EnglishTestTask @relation(fields: [english_test_task_id], references: [id])
+
+  english_test_question_responses EnglishTestQuestionResponse[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  is_deleted Boolean  @default(false)
+
+  @@map("t_english_test_task_response")
+}
+
+model EnglishTestQuestionResponse {
+  id Int @id(map: "PK_english_test_question_response_id") @default(autoincrement())
+
+  english_test_task_response_id Int
+  english_test_task_response    EnglishTestTaskResponse @relation(fields: [english_test_task_response_id], references: [id])
+
+  english_test_question_id Int
+  english_test_question    EnglishTestQuestion @relation(fields: [english_test_question_id], references: [id])
+
+  response   String
+  is_correct Boolean?
+  points     Int      @default(0)
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  is_deleted Boolean  @default(false)
+
+  @@map("t_english_test_question_response")
+}
+
+model EnglishTestMatchResponse {
+  id Int @id(map: "PK_english_test_match_response_id") @default(autoincrement())
+
+  english_test_section_response_id Int
+  english_test_section_response    EnglishTestSectionResponse @relation(fields: [english_test_section_response_id], references: [id])
+
+  english_test_task_match_id Int
+  english_test_task_match    EnglishTestMatchTask @relation(fields: [english_test_task_match_id], references: [id])
+
+  english_test_question_match_responses EnglishTestQuestionMatchResponse[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  is_deleted Boolean  @default(false)
+
+  @@map("t_english_test_match_response")
+}
+
+model EnglishTestQuestionMatchResponse {
+  id Int @id(map: "PK_english_test_question_match_response_id") @default(autoincrement())
+
+  english_test_match_response_id Int
+  english_test_match_response    EnglishTestMatchResponse @relation(fields: [english_test_match_response_id], references: [id])
+
+  english_test_question_match_id Int
+  english_test_question_match    EnglishTestQuestionMatch @relation(fields: [english_test_question_match_id], references: [id])
+
+  response   String
+  is_correct Boolean?
+  points     Int      @default(0)
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  is_deleted Boolean  @default(false)
+
+  @@map("t_english_test_question_match_response")
+}
+
+model EnglishTestMultipleBlankTaskResponse {
+  id Int @id(map: "PK_english_test_multiple_blank_task_response_id") @default(autoincrement())
+
+  english_test_section_response_id Int
+  english_test_section_response    EnglishTestSectionResponse @relation(fields: [english_test_section_response_id], references: [id])
+
+  english_test_task_multiple_blank_id Int
+  english_test_task_multiple_blank    EnglishTestMultipleBlankTask @relation(fields: [english_test_task_multiple_blank_id], references: [id])
+
+  english_test_multiple_blank_question_responses EnglishTestMultipleBlankQuestionResponse[]
+
+  created_at DateTime @default(now())
+  updated_at DateTime @updatedAt
+  is_deleted Boolean  @default(false)
+
+  @@map("t_english_test_multiple_blank_response")
+}
+
+model EnglishTestMultipleBlankQuestionResponse {
+  id Int @id(map: "PK_english_test_multiple_blank_question_response_id") @default(autoincrement())
+
+  response   String
+  is_correct Boolean?
+  points     Int      @default(0)
+
+  created_at             DateTime @default(now())
+  updated_at             DateTime @updatedAt
+  is_deleted             Boolean  @default(false)
+  blank_question_id      Int
+  blank_task_response_id Int
+
+  english_test_multiple_blank_question      EnglishTestMutlipleBlankQuestion     @relation(fields: [blank_question_id], references: [id])
+  english_test_multiple_blank_task_response EnglishTestMultipleBlankTaskResponse @relation(fields: [blank_task_response_id], references: [id])
+
+  @@map("t_english_test_multiple_blank_question_response")
+}
+
+model MathTest {
+  id Int @id(map: "PK_math_test_id") @default(autoincrement())
+
+  title       String?
+  description String?
+
+  duration     Int     @default(7200)
+  is_active    Boolean @default(false)
+  total_points Int?
+
+  math_test_parts MathTestPart[]
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @default(now()) @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  MathTestResponse MathTestResponse[]
+
+  @@map("t_math_test")
+}
+
+model MathTestPart {
+  id    Int     @id(map: "PK_math_test_part_id") @default(autoincrement())
+  title String?
+  order Int
+
+  math_test_id       Int
+  math_test          MathTest          @relation(fields: [math_test_id], references: [id])
+  math_test_sections MathTestSection[]
+
+  created_at           DateTime               @default(now()) @db.Timestamp(6)
+  updated_at           DateTime               @default(now()) @db.Timestamp(6)
+  is_deleted           Boolean                @default(false)
+  MathTestPartResponse MathTestPartResponse[]
+
+  @@map("t_math_test_part")
+}
+
+model MathTestSection {
+  id          Int     @id(map: "PK_math_test_section_id") @default(autoincrement())
+  title       String
+  description String?
+  order       Int
+
+  math_test_part_id   Int
+  math_test_part      MathTestPart       @relation(fields: [math_test_part_id], references: [id])
+  math_test_questions MathTestQuestion[]
+
+  created_at              DateTime                  @default(now()) @db.Timestamp(6)
+  updated_at              DateTime                  @default(now()) @db.Timestamp(6)
+  is_deleted              Boolean                   @default(false)
+  MathTestSectionResponse MathTestSectionResponse[]
+
+  @@map("t_math_test_section")
+}
+
+model MathTestQuestion {
+  id          Int     @id(map: "PK_math_test_question_id") @default(autoincrement())
+  type        String
+  content     String
+  image_url   String?
+  answer      String
+  explanation String?
+  points      Int     @default(1)
+  order       Int
+
+  math_test_section_id Int
+  math_test_section    MathTestSection @relation(fields: [math_test_section_id], references: [id])
+
+  choices String[]
+
+  created_at               DateTime                   @default(now()) @db.Timestamp(6)
+  updated_at               DateTime                   @default(now()) @db.Timestamp(6)
+  is_deleted               Boolean                    @default(false)
+  MathTestQuestionResponse MathTestQuestionResponse[]
+
+  @@map("t_math_test_question")
+}
+
+model MathTestResponse {
+  id Int @id(map: "PK_math_test_response_id") @default(autoincrement())
+
+  user_id String
+  user    User   @relation(fields: [user_id], references: [auth0_id])
+
+  math_test_id Int
+  math_test    MathTest @relation(fields: [math_test_id], references: [id])
+
+  total_questions    Int
+  total_submitted    Int    @default(0)
+  total_correct      Int    @default(0)
+  total_incorrect    Int    @default(0)
+  total_points       Int    @default(0)
+  percentage_correct Float?
+
+  is_finished   Boolean   @default(false)
+  finished_at   DateTime?
+  time_took_sec Int?
+  time_took     String?
+
+  finish_before DateTime
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @updatedAt @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  math_test_part_responses MathTestPartResponse[]
+
+  @@map("t_math_test_response")
+}
+
+model MathTestPartResponse {
+  id Int @id(map: "PK_math_test_part_response_id") @default(autoincrement())
+
+  math_test_response_id Int
+  math_test_response    MathTestResponse @relation(fields: [math_test_response_id], references: [id])
+
+  math_test_part_id Int
+  math_test_part    MathTestPart @relation(fields: [math_test_part_id], references: [id])
+
+  math_test_section_responses MathTestSectionResponse[]
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @updatedAt @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  @@map("t_math_test_part_response")
+}
+
+model MathTestSectionResponse {
+  id Int @id(map: "PK_math_test_section_response_id") @default(autoincrement())
+
+  math_test_part_response_id Int
+  math_test_part_response    MathTestPartResponse @relation(fields: [math_test_part_response_id], references: [id])
+
+  math_test_section_id Int
+  math_test_section    MathTestSection @relation(fields: [math_test_section_id], references: [id])
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @updatedAt @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  math_test_question_responses MathTestQuestionResponse[]
+
+  @@map("t_math_test_section_response")
+}
+
+model MathTestQuestionResponse {
+  id Int @id(map: "PK_math_test_question_response_id") @default(autoincrement())
+
+  math_test_section_response_id Int
+  math_test_section_response    MathTestSectionResponse @relation(fields: [math_test_section_response_id], references: [id])
+
+  math_test_question_id Int
+  math_test_question    MathTestQuestion @relation(fields: [math_test_question_id], references: [id])
+
+  response   String
+  is_correct Boolean?
+  points     Int      @default(0)
+
+  created_at DateTime @default(now()) @db.Timestamp(6)
+  updated_at DateTime @updatedAt @db.Timestamp(6)
+  is_deleted Boolean  @default(false)
+
+  @@map("t_math_test_question_response")
+}

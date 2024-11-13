@@ -1,0 +1,20 @@
+version: "3.3"
+
+services:
+  nodejs:
+    container_name: lever_skeleton_backend
+    build: .
+    ports:
+      - '8080:8080'
+    expose:
+      - 8080
+    volumes:
+      - './src:/app/src'  # Map only the source code directory
+    env_file:
+      - .env.dev
+    command:
+      - /bin/sh
+      - -c
+      - |
+        npx prisma generate
+        npm run dev

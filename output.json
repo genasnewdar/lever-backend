@@ -1,0 +1,354 @@
+{
+    "id": 3,
+    "title": "Хувилбар-А Англи хэл",
+    "description": "English Test Version A",
+    "duration": 720,
+    "is_active": true,
+    "total_points": 100,
+    "created_at": "2024-10-07T14:47:31.525Z",
+    "updated_at": "2024-10-07T14:47:31.525Z",
+    "is_deleted": false,
+    "english_test_parts": [
+        {
+            "id": 5,
+            "title": "PART I",
+            "order": 1,
+            "english_test_id": 3,
+            "created_at": "2024-10-07T14:47:31.525Z",
+            "updated_at": "2024-10-07T14:47:31.525Z",
+            "is_deleted": false,
+            "english_test_sections": [
+                {
+                    "id": 15,
+                    "title": "SECTION 1 GRAMMAR",
+                    "description": "Read the following sentences and choose the correct answer to complete each sentence.",
+                    "order": 1,
+                    "english_test_part_id": 5,
+                    "created_at": "2024-10-07T14:47:31.525Z",
+                    "updated_at": "2024-10-07T14:47:31.525Z",
+                    "is_deleted": false,
+                    "english_test_tasks": [
+                        {
+                            "id": 9,
+                            "description": "Grammar multiple choice questions",
+                            "content": null,
+                            "should_index": true,
+                            "english_test_section_id": 15,
+                            "created_at": "2024-10-07T14:47:31.525Z",
+                            "updated_at": "2024-10-07T14:47:31.525Z",
+                            "is_deleted": false,
+                            "english_test_questions": [
+                                {
+                                    "id": 21,
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "I don't mind ____________________a cat in my house so long as it doesn't smell.",
+                                    "answer": "having",
+                                    "choices": [
+                                        "had",
+                                        "have",
+                                        "to have",
+                                        "having",
+                                        "have to"
+                                    ],
+                                    "points": 1,
+                                    "order": 1,
+                                    "task_id": 9,
+                                    "created_at": "2024-10-07T14:47:31.525Z",
+                                    "updated_at": "2024-10-07T14:47:31.525Z",
+                                    "is_deleted": false
+                                },
+                                {
+                                    "id": 22,
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "I'm very busy with my thesis. I have ____________________time for other things.",
+                                    "answer": "little",
+                                    "choices": [
+                                        "a little",
+                                        "much",
+                                        "little",
+                                        "few",
+                                        "any"
+                                    ],
+                                    "points": 1,
+                                    "order": 2,
+                                    "task_id": 9,
+                                    "created_at": "2024-10-07T14:47:31.525Z",
+                                    "updated_at": "2024-10-07T14:47:31.525Z",
+                                    "is_deleted": false
+                                },
+                                {
+                                    "id": 23,
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "The house was empty for a month __________________ my neighbors moved out.",
+                                    "answer": "after",
+                                    "choices": [
+                                        "while",
+                                        "until",
+                                        "during",
+                                        "before",
+                                        "after"
+                                    ],
+                                    "points": 1,
+                                    "order": 3,
+                                    "task_id": 9,
+                                    "created_at": "2024-10-07T14:47:31.525Z",
+                                    "updated_at": "2024-10-07T14:47:31.525Z",
+                                    "is_deleted": false
+                                },
+                                {
+                                    "id": 24,
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "They asked me a lot of questions, most of ___________________I couldn't answer.",
+                                    "answer": "which",
+                                    "choices": [
+                                        "whom",
+                                        "where",
+                                        "that",
+                                        "which",
+                                        "when"
+                                    ],
+                                    "points": 1,
+                                    "order": 4,
+                                    "task_id": 9,
+                                    "created_at": "2024-10-07T14:47:31.525Z",
+                                    "updated_at": "2024-10-07T14:47:31.525Z",
+                                    "is_deleted": false
+                                },
+                                {
+                                    "id": 25,
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "If you put your money in a savings, you _____ eight per cent interest.",
+                                    "answer": "which",
+                                    "choices": [
+                                        "to get",
+                                        "were getting",
+                                        "get",
+                                        "got",
+                                        "are getting"
+                                    ],
+                                    "points": 1,
+                                    "order": 5,
+                                    "task_id": 9,
+                                    "created_at": "2024-10-07T14:47:31.525Z",
+                                    "updated_at": "2024-10-07T14:47:31.525Z",
+                                    "is_deleted": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 16,
+                    "title": "SECTION 2 VOCABULARY",
+                    "description": "Read the sentences and choose the correct word to complete each sentence.",
+                    "order": 2,
+                    "english_test_part_id": 5,
+                    "created_at": "2024-10-07T14:47:31.525Z",
+                    "updated_at": "2024-10-07T14:47:31.525Z",
+                    "is_deleted": false,
+                    "english_test_tasks": [
+                        {
+                            "id": 10,
+                            "description": "Vocabulary multiple choice questions",
+                            "content": null,
+                            "should_index": true,
+                            "english_test_section_id": 16,
+                            "created_at": "2024-10-07T14:47:31.525Z",
+                            "updated_at": "2024-10-07T14:47:31.525Z",
+                            "is_deleted": false,
+                            "english_test_questions": [
+                                {
+                                    "id": 26,
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "We can travel to Brighton______________by bus or by train; the fare is almost the same.",
+                                    "answer": "either",
+                                    "choices": [
+                                        "both",
+                                        "none",
+                                        "neither",
+                                        "either",
+                                        "all"
+                                    ],
+                                    "points": 1,
+                                    "order": 1,
+                                    "task_id": 10,
+                                    "created_at": "2024-10-07T14:47:31.525Z",
+                                    "updated_at": "2024-10-07T14:47:31.525Z",
+                                    "is_deleted": false
+                                },
+                                {
+                                    "id": 27,
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "The more he looked at her, _______________________________embarrassed she was.",
+                                    "answer": "the more",
+                                    "choices": [
+                                        "more",
+                                        "the most",
+                                        "the more",
+                                        "mostly",
+                                        "much"
+                                    ],
+                                    "points": 1,
+                                    "order": 2,
+                                    "task_id": 10,
+                                    "created_at": "2024-10-07T14:47:31.525Z",
+                                    "updated_at": "2024-10-07T14:47:31.525Z",
+                                    "is_deleted": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 17,
+                    "title": "SECTION 3 COMMUNICATION",
+                    "description": "Read the conversations and choose the best answers.",
+                    "order": 3,
+                    "english_test_part_id": 5,
+                    "created_at": "2024-10-07T14:47:31.525Z",
+                    "updated_at": "2024-10-07T14:47:31.525Z",
+                    "is_deleted": false,
+                    "english_test_tasks": [
+                        {
+                            "id": 11,
+                            "description": "Communication multiple choice questions",
+                            "content": null,
+                            "should_index": true,
+                            "english_test_section_id": 17,
+                            "created_at": "2024-10-07T14:47:31.525Z",
+                            "updated_at": "2024-10-07T14:47:31.525Z",
+                            "is_deleted": false,
+                            "english_test_questions": [
+                                {
+                                    "id": 28,
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Man: Does Judy prefer saving her money?\nWoman: ___________________ She loves to buy things.",
+                                    "answer": "No, she'd rather not save.",
+                                    "choices": [
+                                        "Yes, she always saves her money.",
+                                        "Yes, she'd rather save.",
+                                        "No, she wouldn't rather spend her money.",
+                                        "No, she'd rather not save.",
+                                        "Yes, she prefers saving her money."
+                                    ],
+                                    "points": 2,
+                                    "order": 1,
+                                    "task_id": 11,
+                                    "created_at": "2024-10-07T14:47:31.525Z",
+                                    "updated_at": "2024-10-07T14:47:31.525Z",
+                                    "is_deleted": false
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "id": 18,
+                    "title": "SECTION 4 READING",
+                    "description": "Read the passage and choose the correct answers.",
+                    "order": 4,
+                    "english_test_part_id": 5,
+                    "created_at": "2024-10-07T14:47:31.525Z",
+                    "updated_at": "2024-10-07T14:47:31.525Z",
+                    "is_deleted": false,
+                    "english_test_tasks": [
+                        {
+                            "id": 12,
+                            "description": "Reading comprehension",
+                            "content": "(1) When John was growing up, other kids felt sorry for him because his parents always made him weed the garden, carry out the garbage and deliver newspapers. But when John reached adulthood, he was better than his childhood playmates. He had more job satisfaction, a better marriage, and was healthier. Most of all, he was happier. Far happier.\n\n(2) The findings of a 40-year study that observed the lives of 456 teenage boys from Boston showed that those who had worked during their boyhood enjoyed happier and more productive lives than those who had not. \"Boys who worked in the home or community gained more competence and came to feel ts worthwhile members of society\", said George Vaillant, the psychologist who made the discovery. As he also said, \"Because they felt good about themselves, others felt good about them as well.\"\n\n(3) Vaillant's study observed these males in great detail. Interviews were repeated at the ages of 25,31 and 47. Under Vaillant's supervision, the researchers compared the men's mental health scores with their boyhood-activity scores. Points were awarded for their part-time jobs, housework, school efforts, and ability to deal with problems.\n\n(4) The link between the scores of men's boyhood and adulthood activities was surprisingly sharp. Those who had done the most boyhood activities were twice as likely to have warm relations with a wide variety of people, five times as likely to be well paid, and 16 times less likely to have been unemployed. The researchers also found that IQ, family, a social and economic status made no real difference in how the boys turned out to be adults.\n\n(5) Working at any age is important. Childhood activities help children develop their abilities to be responsible, independent, confident and competent—the underpinnings of emotional health. They also help them understand the importance of cooperative work toward common goals. The most confident adults are those who know how to do this. Yet work isn't everything. As Tolstoy once said, \"On,e can live magnificently in this world if he/she knows how to work and love, and how to work for the person one loves and love one's work.\"",
+                            "should_index": true,
+                            "english_test_section_id": 18,
+                            "created_at": "2024-10-07T14:47:31.525Z",
+                            "updated_at": "2024-10-07T14:47:31.525Z",
+                            "is_deleted": false,
+                            "english_test_questions": [
+                                {
+                                    "id": 29,
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "What do we know about John?",
+                                    "answer": "E",
+                                    "choices": [
+                                        "He had few childhood playmates.",
+                                        "He received little love from his family.",
+                                        "He was envied by others in his childhood.",
+                                        "He felt sorry for his childhood.",
+                                        "He enjoyed his career and marriage."
+                                    ],
+                                    "points": 2,
+                                    "order": 1,
+                                    "task_id": 12,
+                                    "created_at": "2024-10-07T14:47:31.525Z",
+                                    "updated_at": "2024-10-07T14:47:31.525Z",
+                                    "is_deleted": false
+                                },
+                                {
+                                    "id": 30,
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Vaillant's words in Paragraph 2 serve as___________.",
+                                    "answer": "an exlanation of why some boys grew into happy men",
+                                    "choices": [
+                                        "an explanation of why some boys grew into happy men",
+                                        "a description of personal values and social values",
+                                        "an analysis of how work was related to competence",
+                                        "an example of parents' expectations of their children",
+                                        "advice on how to become a worthy member of society"
+                                    ],
+                                    "points": 2,
+                                    "order": 2,
+                                    "task_id": 12,
+                                    "created_at": "2024-10-07T14:47:31.525Z",
+                                    "updated_at": "2024-10-07T14:47:31.525Z",
+                                    "is_deleted": false
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": 6,
+            "title": "PART II",
+            "order": 2,
+            "english_test_id": 3,
+            "created_at": "2024-10-07T14:47:31.525Z",
+            "updated_at": "2024-10-07T14:47:31.525Z",
+            "is_deleted": false,
+            "english_test_sections": [
+                {
+                    "id": 19,
+                    "title": "Matching Exercise",
+                    "description": "Combine each phrase in column \"A\" with a suitable phrase from column \"B\". Not all phrases in column \"B\" will be used.",
+                    "order": 1,
+                    "english_test_part_id": 6,
+                    "created_at": "2024-10-07T14:47:31.525Z",
+                    "updated_at": "2024-10-07T14:47:31.525Z",
+                    "is_deleted": false,
+                    "english_test_tasks": []
+                },
+                {
+                    "id": 20,
+                    "title": "Word Definitions",
+                    "description": "Match the words with their definitions. There are two extra definitions.",
+                    "order": 2,
+                    "english_test_part_id": 6,
+                    "created_at": "2024-10-07T14:47:31.525Z",
+                    "updated_at": "2024-10-07T14:47:31.525Z",
+                    "is_deleted": false,
+                    "english_test_tasks": []
+                },
+                {
+                    "id": 21,
+                    "title": "Word Forms",
+                    "description": "Choose the correct word form that best fits in each blank.",
+                    "order": 3,
+                    "english_test_part_id": 6,
+                    "created_at": "2024-10-07T14:47:31.525Z",
+                    "updated_at": "2024-10-07T14:47:31.525Z",
+                    "is_deleted": false,
+                    "english_test_tasks": []
+                }
+            ]
+        }
+    ]
+}

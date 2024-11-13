@@ -1,0 +1,890 @@
+{
+    "title": "Хувилбар B Англи хэл",
+    "description": "Элсэлтийн ерөнхий шалгалт-2023",
+    "duration": 120,
+    "is_active": true,
+    "total_points": 100,
+    "english_test_parts": [
+      {
+        "title": "PART I",
+        "order": 1,
+        "english_test_sections": [
+            {
+                "description": "Read the following sentences and choose the correct answer.",
+                "content": null,
+                "should_index": false,
+                "english_test_questions": [
+                    {
+                        "content": "Italy is in _____ South of _____ Europe, isn’t it?",
+                        "choices": ["A. the / __", "B. an / a", "C. the / the", "D. the / an", "E. an / the"],
+                        "answer": "A",
+                        "points": 1,
+                        "order": 1
+                      },
+                      {
+                        "content": "Alice: Do you think about the future? John: No. Very _____ people care for what the future will be like.",
+                        "choices": ["A. a few", "B. much", "C. little", "D. few", "E. many"],
+                        "answer": "D",
+                        "points": 1,
+                        "order": 2
+                      },
+                      {
+                        "content": "I haven’t got _____ as cheap as that this year.",
+                        "choices": ["A. anywhere", "B. something", "C. anything", "D. nowhere", "E. nothing"],
+                        "answer": "C",
+                        "points": 1,
+                        "order": 3
+                      },
+                      {
+                        "content": "The rooms of the hotel have been _____ decorated to help you relax and feel at home.",
+                        "choices": ["A. tasty", "B. tastefully", "C. tasteful", "D. more tastefully", "E. more tasteful"],
+                        "answer": "B",
+                        "points": 1,
+                        "order": 4
+                      },
+                      {
+                        "content": "_____ I think about it, the less happy I feel.",
+                        "choices": ["A. Much more", "B. More", "C. Most", "D. Much", "E. The more"],
+                        "answer": "E",
+                        "points": 1,
+                        "order": 5
+                      },
+                      {
+                        "content": "How rude _____ Frank to use Paula’s car without asking her.",
+                        "choices": ["A. about", "B. for", "C. by", "D. of", "E. with"],
+                        "answer": "D",
+                        "points": 1,
+                        "order": 6
+                      },
+                      {
+                        "content": "I parked the car _____ the trees; there was a charming, little cottage.",
+                        "choices": ["A. in", "B. between", "C. among", "D. along", "E. on"],
+                        "answer": "C",
+                        "points": 1,
+                        "order": 7
+                      },
+                      {
+                        "content": "I _____ her for everything she _____",
+                        "choices": ["A. thanked / had done", "B. thanked / did", "C. have thanked / has", "D. had thanked / did", "E. has thanked / does"],
+                        "answer": "A",
+                        "points": 1,
+                        "order": 8
+                      },
+                      {
+                        "content": "By three o’clock the students _____ the test for two hours.",
+                        "choices": ["A. is going to sit", "B. will sit", "C. will be doing", "D. will have been sitting", "E. will have done"],
+                        "answer": "D",
+                        "points": 1,
+                        "order": 9
+                      },
+                      {
+                        "content": "The tour guide advised the tourist not _____ too much money out with them.",
+                        "choices": ["A. take", "B. taking", "C. to take", "D. to taking", "E. to be taken"],
+                        "answer": "C",
+                        "points": 1,
+                        "order": 10
+                      },
+                      {
+                        "content": "Chloe’s father promised her a car _____ she didn’t pass her final exam.",
+                        "choices": ["A. despite", "B. even though", "C. because", "D. whereas", "E. so that"],
+                        "answer": "B",
+                        "points": 1,
+                        "order": 11
+                      },
+                      {
+                        "content": "By the time we arrived at the market, the best fruit _____.",
+                        "choices": ["A. was sold", "B. had sold", "C. sold", "D. had been sold", "E. was being sold"],
+                        "answer": "D",
+                        "points": 1,
+                        "order": 12
+                      },
+                      {
+                        "content": "“Will you be going to the USA next summer?” his boss asked. His boss asked _____",
+                        "choices": ["A. for him if he would be going to the USA the following summer", "B. him he would be going to the USA the next summer.", "C. him he would be going to USA the following summer.", "D. him if he would be going to the USA the previous summer.", "E. him if he would be going to the USA the following summer."],
+                        "answer": "E",
+                        "points": 1,
+                        "order": 13
+                      }
+                ]
+              },
+              {
+                "description": "Read the following sentences and identify the part that needs correction.",
+                "content": null,
+                "should_index": false,
+                "english_test_questions": [
+                    {
+                        "content": "If I would bought a second-hand car, I wouldn’t have taken out this big bank loan.",
+                        "choices": ["A", "B", "C", "D", "E"],
+                        "answer": "A",
+                        "points": 3,
+                        "order": 14
+                      },
+                      {
+                        "content": "The tribe’s sense of identity can easily been destroyed.",
+                        "choices": ["A", "B", "C", "D", "E"],
+                        "answer": "C",
+                        "points": 3,
+                        "order": 15
+                      },
+                      {
+                        "content": "This jacket is too expensive, as I can’t afford it.",
+                        "choices": ["A", "B", "C", "D", "E"],
+                        "answer": "C",
+                        "points": 3,
+                        "order": 16
+                      }
+                ]
+              },
+              {
+                "description": "Read the following sentences and complete the phrasal verbs with the correct particles.",
+                "content": null,
+                "should_index": false,
+                "english_test_questions": [
+                    {
+                        "content": "He turned _____ the invitation to the concert because he was feeling tired.",
+                        "choices": ["A. back", "B. down", "C. in", "D. up", "E. on"],
+                        "answer": "B. down",
+                        "points": 2,
+                        "order": 17
+                      },
+                      {
+                        "content": "The suspect gave _____ his secret in order to get the reward offered.",
+                        "choices": ["A. off", "B. back", "C. away", "D. up", "E. over"],
+                        "answer": "C. away",
+                        "points": 2,
+                        "order": 18
+                      } 
+                ]
+              }
+            ]
+          },
+          {
+            "title": "SECTION 2 VOCABULARY",
+            "description": "Choose the correct word and phrase to complete sentences.",
+            "order": 2,
+            "english_test_tasks": [
+                {
+                    "description": "Read the following sentences and choose the correct word or phrase to complete them.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                        {
+                            "content": "You need to acquire _____ in social work.",
+                            "choices": ["A. operation", "B. application", "C. necessity", "D. qualification", "E. cooperation"],
+                            "answer": "D. qualification",
+                            "points": 1,
+                            "order": 19
+                          },
+                          {
+                            "content": "Roads should have a _____ so that people can cross the road safely.",
+                            "choices": ["A. dead end", "B. intersection", "C. zebra crossing", "D. one-way street", "E. lane"],
+                            "answer": "C. zebra crossing",
+                            "points": 1,
+                            "order": 20
+                          },
+                          {
+                            "content": "The level of junk food _____ was illustrated by statistics.",
+                            "choices": ["A. consideration", "B. compulsion", "C. consumption", "D. combination", "E. compassion"],
+                            "answer": "C. consumption",
+                            "points": 1,
+                            "order": 21
+                          },
+                          {
+                            "content": "When fossil fuels burn, different substances are _____ into the air.",
+                            "choices": ["A. accelerated", "B. tapped", "C. trapped", "D. supplied", "E. released"],
+                            "answer": "E. released",
+                            "points": 1,
+                            "order": 22
+                          },
+                          {
+                            "content": "Jack has already _____ a very good reputation as a talented prosecutor.",
+                            "choices": ["A. achieved", "B. won", "C. done", "D. made", "E. gained"],
+                            "answer": "E. gained",
+                            "points": 1,
+                            "order": 23
+                          },
+                          {
+                            "content": "The cave of the Apocalypse in Greece is in the list of UNESCO world _____ sites.",
+                            "choices": ["A. heritage", "B. representation", "C. legacy", "D. tradition", "E. masterpiece"],
+                            "answer": "A. heritage",
+                            "points": 1,
+                            "order": 24
+                          },
+                          {
+                            "content": "Always _____ your files and any documents you’re working on.",
+                            "choices": ["A. back up", "B. hack into", "C. log in", "D. click on", "E. crash on"],
+                            "answer": "A. back up",
+                            "points": 1,
+                            "order": 25
+                          },
+                          {
+                            "content": "Anna: You must come and visit us some time. Don’t keep putting it off.\nTom: Yes, I’ll come and see you in the not too distant future.",
+                            "choices": ["A. promise", "B. demand", "C. offer", "D. prediction", "E. appointment"],
+                            "answer": "A. promise",
+                            "points": 1,
+                            "order": 26
+                          },
+                          {
+                            "content": "Sharon: Who is the girl? Do you know her?\nJohn: She must be Alice’s daughter. She looks just like her.",
+                            "choices": ["A. criticism", "B. complaint", "C. compliment", "D. assumption", "E. suggestion"],
+                            "answer": "D. assumption",
+                            "points": 1,
+                            "order": 27
+                          }
+                    ]
+                  },
+                  {
+                    "description": "Complete the collocations with the correct word.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                        {
+                            "content": "a valuable, a rich, a reliable",
+                            "choices": ["A. source", "B. determination", "C. enthusiasm", "D. guarantee", "E. extension"],
+                            "answer": "A. source",
+                            "points": 3,
+                            "order": 28
+                          },
+                          {
+                            "content": "knowledge, wisdom, information",
+                            "choices": ["A. to earn", "B. to conduct", "C. to instruct", "D. to impart", "E. to endure"],
+                            "answer": "D. to impart",
+                            "points": 3,
+                            "order": 29
+                          }
+                    ]
+                  },
+                  {
+                    "description": "Complete the student's comment with the correct phrase.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                        {
+                            "content": "I struggle to speak for a long time and say ‘Err’ a lot when I _____.",
+                            "choices": [
+                              "A. run out of ideas",
+                              "B. avoid pronouncing words",
+                              "C. find my spoken fluency",
+                              "D. provide feedback on the grammatical accuracy",
+                              "E. have a significant impact"
+                            ],
+                            "answer": "A. run out of ideas",
+                            "points": 3,
+                            "order": 30
+                          },
+                          {
+                            "content": "Choose the most possible solution to flood.",
+                            "choices": [
+                              "A. stonework",
+                              "B. wind turbines",
+                              "C. dams and canals",
+                              "D. tunnels and subways",
+                              "E. sea barrier"
+                            ],
+                            "answer": "C. dams and canals",
+                            "points": 3,
+                            "order": 31
+                          }
+                    ]
+                  },
+                  {
+                    "description": "Choose the correct meaning for the idioms.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                        {
+                            "content": "He was late and made up some cock-and-bull story about losing his car keys.",
+                            "choices": [
+                              "A. He was involved in illegal activities.",
+                              "B. Other people thought he was true.",
+                              "C. He told a fake story.",
+                              "D. He told a story about animals.",
+                              "E. He was upset about being late."
+                            ],
+                            "answer": "C. He told a fake story.",
+                            "points": 3,
+                            "order": 32
+                          },
+                          {
+                            "content": "The computer he gave you isn't the best one in the world, but you shouldn't look a gift horse in the mouth.",
+                            "choices": [
+                              "A. The computer is a bad gift.",
+                              "B. You should not complain about the gift given to you.",
+                              "C. You should give back the computer to him.",
+                              "D. Never receive a gift you don’t like.",
+                              "E. Receiving a horse as a gift is his hobby."
+                            ],
+                            "answer": "B. You should not complain about the gift given to you.",
+                            "points": 3,
+                            "order": 33
+                          }
+                    ]
+                  }
+            ]
+          },
+          {
+            "title": "SECTION 3 COMMUNICATION",
+            "description": "Read the conversations and choose the correct answers.",
+            "order": 3,
+            "english_test_tasks": [
+                {
+                    "description": "Choose the best answers to complete the conversations.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                        {
+                            "content": "Bank manager: Is your company _____ money?\nCustomer: Yes. We are in profit, so we have a steady income.",
+                            "choices": [
+                              "A. getting",
+                              "B. making",
+                              "C. taking",
+                              "D. asking",
+                              "E. giving"
+                            ],
+                            "answer": "B. making",
+                            "points": 1,
+                            "order": 34
+                          },
+                          {
+                            "content": "Man: These drones aren’t as expensive as I thought.\nWoman: They’re _____ cheap right now because a new model has just come out.",
+                            "choices": [
+                              "A. sending",
+                              "B. giving",
+                              "C. asking",
+                              "D. going",
+                              "E. bringing up"
+                            ],
+                            "answer": "D. going",
+                            "points": 1,
+                            "order": 35
+                          }
+                    ]
+                  },
+                  {
+                    "description": "Choose the most polite form.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                        {   "type":"MULTIPLE_CHOICES",
+                            "content": "How far is it to Darkhan city?\nThe most polite form:",
+                            "choices": [
+                              "A. Tell me, how far it is to Darkhan city, please?",
+                              "B. Can you tell me how far is it to Darkhan city?",
+                              "C. Could you tell me how far is it to Darkhan city?",
+                              "D. Tell me, how far it to Darkhan city is?",
+                              "E. Could you tell me how far it is to Darkhan city?"
+                            ],
+                            "answer": "E. Could you tell me how far it is to Darkhan city?",
+                            "points": 2,
+                            "order": 36
+                          }
+                    ]
+                  },
+                  {
+                    "description": "Choose the most appropriate phrase instead of the underlined word.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                        {
+                            "content": "Anna: Can I have a salad and rice with my lunch?\nJack: No, you have to choose, salad or rice, but not both.",
+                            "choices": [
+                              "A. make a choice",
+                              "B. make an effort",
+                              "C. make a habit",
+                              "D. make a change",
+                              "E. make a point"
+                            ],
+                            "answer": "A. make a choice",
+                            "points": 3,
+                            "order": 37
+                          }
+                    ]
+                  },
+                  {
+                    "description": "Read the short conversation and choose the correct answer.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                        {
+                            "type": "MULTIPLE_CHOICES",
+                            "content": "John: Ok, so that’s it. Thank you for listening. I think we have a few minutes for some questions and feedback...?\nTutor: I thought it was really good.\nAnna: Yeah... I think...maybe some animation on the slides might’ve been useful. What do you think?",
+                            "answer": "The slides should be livelier if they have visuals.",
+                            "choices": [
+                              "It’s a very serious presentation.",
+                              "Some slides should be removed.",
+                              "Suppose some more slides should be added.",
+                              "The slides should be livelier if they have visuals.",
+                              "The presentation needs some more examples."
+                            ],
+                            "points": 3,
+                            "order": 38
+                          }
+                    ]
+                  }
+                ]
+              },
+            
+        
+        {
+        "title": "SECTION 4 READING",
+        "description": "Read the passage and choose the correct answers.",
+        "order": 4,
+        "english_test_tasks": [
+          {
+            "description": "Reading comprehension",
+            "content": "(1) High traffic levels remain a problem for many governments. Car ownership in fast-developing countries continues to double each year, and migration to cities is also rising quickly, resulting in high levels of congestion and pollution.\n(2) Until recently, governments successfully controlled traffic levels by imposing financial obligations on drivers. They made it more expensive to drive by raising taxes on petrol or increasing parking costs, while making public transport cheaper by investing in rail and bus travel. However, these ‘tax and spend’ approaches are no longer possible to introduce easily. This is because living costs are growing in many countries, so governments can’t spend as much money and people are angry when they have to pay more. New controls are, therefore, needed.\n(3) Legal solutions to congestion issues are now attracting greater interest. However, traffic laws and regulations have often proved ineffective. For example, banning cars in city centres has simply transferred problems to the edge of cities. Similarly, controlling speed limits has been effective on fast roads but has done little to solve congestion in urban areas.\n(4) A more effective legal intervention might be to stop some people from driving altogether – but who exactly? If workers were stopped from driving, they might not be able to get to work. Many older citizens and families also rely on cars to move around easily. Furthermore, both these groups vote frequently, so it would be a political disaster to prevent them from driving.\n(5) This leaves young people. Many people would agree with raising the minimum driving age in order to reduce the number of drivers on the road and cut pollution. Young people make up over 25% of road deaths in many countries and, according to recent research, parts of the brain that help to calculate risks and consequences are not fully developed until the age of 25. Consequently, there have already been discussions in the media about stopping young people driving or carrying passengers.\n(6) Of course, young people would have to be given financial assistance to make sure public transport remained affordable for them. But as pressure grows on the governments to reduce congestion, it surely makes sense to postpone the time that young drivers get their licenses until a little later in life.",
+            "should_index": true,
+            "english_test_questions": [
+                {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "What title will be the most suitable for the passage?",
+                    "answer": "B. Relationship between driving age and serious accidents",
+                    "choices": [
+                      "A. Increase in car’s popularity",
+                      "B. Relationship between driving age and serious accidents",
+                      "C. Starting to drive at 25",
+                      "D. Car dependence of a social group",
+                      "E. Environmental benefit of raising driving age"
+                    ],
+                    "points": 1,
+                    "order": 39
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "What do the ‘tax and spend’ approaches mean?",
+                    "answer": "A. increase fuel price and living cost",
+                    "choices": [
+                      "A. increase fuel price and living cost",
+                      "B. increase fuel price and car maintenance cost",
+                      "C. decrease public transport fee",
+                      "D. tax the young drivers if they are younger than 25",
+                      "E. increase living cost"
+                    ],
+                    "points": 1,
+                    "order": 40
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Young people make up more than 25% of ________________.",
+                    "answer": "D. road deaths",
+                    "choices": [
+                      "A. road accidents",
+                      "B. road congestion",
+                      "C. city pollution",
+                      "D. road deaths",
+                      "E. public transport"
+                    ],
+                    "points": 1,
+                    "order": 41
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Which group is NOT mentioned as the community that can cause the political disaster?",
+                    "answer": "D. governments",
+                    "choices": [
+                      "A. workers",
+                      "B. older citizens",
+                      "C. families",
+                      "D. governments",
+                      "E. young people"
+                    ],
+                    "points": 1,
+                    "order": 42
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "According to the text why people can get angry? When ________________.",
+                    "answer": "they have to pay more",
+                    "choices": [
+                      "they have to pay more",
+                      "the young people have to get their driving licenses at 25",
+                      "they have to use public transport",
+                      "the brains of young people cannot calculate risk",
+                      "the governments try to reduce congestion"
+                    ],
+                    "points": 3,
+                    "order": 43
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Which statement agrees with the information in the text?",
+                    "answer": "The suggestion can encourage young people to use public transport if the governments provide some financial support.",
+                    "choices": [
+                      "Governments allow a certain number of vehicles into the city centres if drivers can afford the increased expense for having own car.",
+                      "Raising the minimum driving age to 25 can improve the health of young people.",
+                      "Banning cars in urban areas can fully solve the congestion and pollution.",
+                      "The suggestion can encourage young people to use public transport if the governments provide some financial support.",
+                      "Laws and regulations have stopped driving of all age drivers."
+                    ],
+                    "points": 3,
+                    "order": 44
+                  }
+            ]
+          },
+          {
+            "description": "Choose the most appropriate word for the game definition.",
+            "content": null,
+            "should_index": true,
+            "english_test_questions": [
+                {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Doing crosswords: A word game with black and white squares where you write _____ in the _____ squares is a crossword.",
+                    "answer": "a word / white",
+                    "choices": [
+                      "puzzle / empty",
+                      "clue / black",
+                      "a word / white",
+                      "cross / clue",
+                      "puzzle / white"
+                    ],
+                    "points": 1,
+                    "order": 45
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "When you exercise, you move your body energetically in order to _____ and remain healthy.",
+                    "answer": "get fit",
+                    "choices": [
+                      "get sober",
+                      "get fit",
+                      "push up",
+                      "sit back",
+                      "run slowly"
+                    ],
+                    "points": 1,
+                    "order": 46
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "What you will say when someone is playing in a dishonest or unfair way?",
+                    "answer": "You can’t do that, it’s considered as a foul play.",
+                    "choices": [
+                      "It’s your move.",
+                      "You have really good hand.",
+                      "I knew, I’d win.",
+                      "You can’t do that, it’s considered as a foul play.",
+                      "Push your pedals."
+                    ],
+                    "points": 3,
+                    "order": 47
+                  }
+            ]
+          }
+        ]
+        
+        },
+        
+        {
+            "title": "Хоёрдугаар хэсэг",
+            "order": 2,
+            "english_test_sections": [
+              {
+                "title": "Word Forms",
+                "description": "Choose the correct form that best fits each blank.",
+                "order": 1,
+                "english_test_task_multiple_blank": [
+                  {
+                    "description": "Fill in the blanks with the correct word form.",
+                    "content": "Astronauts have to pass a medical and have a (a) _____ in a relevant subject. They have to be willing to live in an (b) _____ small space and work well with other people. Experiments can go (c) _____ wrong, risking the lives of astronauts. They have to be able to react (d) _____ in a difficult situation as well as be prepared to work hard. The first British astronaut was a woman named Helen Sharman. She got the job after hearing an (e) _____ on the radio. There were 18,000 applicants and, luckily for Helen, she was chosen. She said that the most (f) _____ thing for her was seeing the earth from 120 miles into space.",
+                    "english_test_multiple_blank_questions": [
+                      {
+                        "answer": "qualification",
+                        "choices": [
+                          "qualifying",
+                          "quality",
+                          "qualify",
+                          "disqualification",
+                          "qualification"
+                        ],
+                        "points": 1,
+                        "order": 1
+                      },
+                      {
+                        "answer": "extreme",
+                        "choices": [
+                          "extremism",
+                          "extremely",
+                          "extreme",
+                          "extremist",
+                          "extricate"
+                        ],
+                        "points": 1,
+                        "order": 2
+                      },
+                      {
+                        "answer": "dangerous",
+                        "choices": [
+                          "dangerously",
+                          "dangerous",
+                          "danger",
+                          "out of danger",
+                          "in danger"
+                        ],
+                        "points": 1,
+                        "order": 3
+                      },
+                      {
+                        "answer": "calmly",
+                        "choices": [
+                          "calming",
+                          "calm",
+                          "calmness",
+                          "calmly",
+                          "calmed"
+                        ],
+                        "points": 1,
+                        "order": 4
+                      },
+                      {
+                        "answer": "announcement",
+                        "choices": [
+                          "announce",
+                          "announced",
+                          "announcing",
+                          "announcement",
+                          "announcer"
+                        ],
+                        "points": 1,
+                        "order": 5
+                      },
+                      {
+                        "answer": "amazing",
+                        "choices": [
+                          "amazed",
+                          "amazingly",
+                          "amazing",
+                          "amazement",
+                          "amaze"
+                        ],
+                        "points": 1,
+                        "order": 6
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Synonyms Matching",
+                "description": "Choose the word that has a similar meaning to the underlined word. Match the words (a-h) with their synonyms in each sentence in the column (1-8).",
+                "order": 2,
+                "english_test_task_match": [
+                  {
+                    "description": "Match the phrases",
+                    "english_test_match_questions": [
+                      {
+                        "answer": "to repent",
+                        "choices": [
+                          "represent",
+                          "spacious",
+                          "to repent",
+                          "to empower",
+                          "to grow up",
+                          "rude",
+                          "to reveal",
+                          "intelligent"
+                        ],
+                        "matcher": "I regret letting him go out late night.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "spacious",
+                        "choices": [
+                          "represent",
+                          "spacious",
+                          "to repent",
+                          "to empower",
+                          "to grow up",
+                          "rude",
+                          "to reveal",
+                          "intelligent"
+                        ],
+                        "matcher": "The car has a surprisingly roomy saloon.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "to empower",
+                        "choices": [
+                          "represent",
+                          "spacious",
+                          "to repent",
+                          "to empower",
+                          "to grow up",
+                          "rude",
+                          "to reveal",
+                          "intelligent"
+                        ],
+                        "matcher": "Everyone has entitled to their own opinion.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "to reveal",
+                        "choices": [
+                          "represent",
+                          "spacious",
+                          "to repent",
+                          "to empower",
+                          "to grow up",
+                          "rude",
+                          "to reveal",
+                          "intelligent"
+                        ],
+                        "matcher": "The officer refused to disclose the report of the investigation.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "represent",
+                        "choices": [
+                          "represent",
+                          "spacious",
+                          "to repent",
+                          "to empower",
+                          "to grow up",
+                          "rude",
+                          "to reveal",
+                          "intelligent"
+                        ],
+                        "matcher": "Van Gogh illustrated still life in vivid movement.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "intelligent",
+                        "choices": [
+                          "represent",
+                          "spacious",
+                          "to repent",
+                          "to empower",
+                          "to grow up",
+                          "rude",
+                          "to reveal",
+                          "intelligent"
+                        ],
+                        "matcher": "He thinks he is smarter than Sarah is.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "rude",
+                        "choices": [
+                          "represent",
+                          "spacious",
+                          "to repent",
+                          "to empower",
+                          "to grow up",
+                          "rude",
+                          "to reveal",
+                          "intelligent"
+                        ],
+                        "matcher": "The programme contains language which some viewers find offensive.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "to grow up",
+                        "choices": [
+                          "represent",
+                          "spacious",
+                          "to repent",
+                          "to empower",
+                          "to grow up",
+                          "rude",
+                          "to reveal",
+                          "intelligent"
+                        ],
+                        "matcher": "He’s matured since he left home.",
+                        "points": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Music and Culture",
+                "description": "Choose the best word to fit each blank.",
+                "order": 3,
+                "english_test_task_multiple_blank": [
+                  {
+                    "description": "Fill in the blanks with the correct word.",
+                    "content": "Music is thought to be one of mankind’s greatest inventions. It is found all over the world and is an important part of culture and (a) _____. One curious fact is that music has formed a part of all the different (b) _____ on our planet. Music is seen as one of the purest and most emotional creations and it would be hard to imagine our (c) _____ without it. What we need to do is make sure that it does not become too controlled by (d) _____ and allow people to be creative and express themselves through music. People are constantly inventing new (e) _____ of music and it makes such an interesting topic of (f) _____. Let’s just hope that this will never stop.",
+                    "english_test_multiple_blank_questions": [
+                      {
+                        "answer": "traditions",
+                        "choices": [
+                          "belief",
+                          "habits",
+                          "fun",
+                          "health",
+                          "traditions"
+                        ],
+                        "points": 1,
+                        "order": 1
+                      },
+                      {
+                        "answer": "civilizations",
+                        "choices": [
+                          "people",
+                          "civilizations",
+                          "festivals",
+                          "citizens",
+                          "adults"
+                        ],
+                        "points": 1,
+                        "order": 2
+                      },
+                      {
+                        "answer": "lives",
+                        "choices": [
+                          "lives",
+                          "existences",
+                          "routines",
+                          "times",
+                          "periods"
+                        ],
+                        "points": 1,
+                        "order": 3
+                      },
+                      {
+                        "answer": "money",
+                        "choices": [
+                          "income",
+                          "cash",
+                          "money",
+                          "expenses",
+                          "currency"
+                        ],
+                        "points": 1,
+                        "order": 4
+                      },
+                      {
+                        "answer": "genres",
+                        "choices": [
+                          "kinds",
+                          "classes",
+                          "categories",
+                          "genres",
+                          "series"
+                        ],
+                        "points": 1,
+                        "order": 5
+                      },
+                      {
+                        "answer": "conversation",
+                        "choices": [
+                          "agreement",
+                          "conversation",
+                          "argument",
+                          "learning",
+                          "school"
+                        ],
+                        "points": 1,
+                        "order": 6
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+           
+          
+    ]
+  }
+
+  

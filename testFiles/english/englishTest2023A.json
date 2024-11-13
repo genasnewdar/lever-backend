@@ -1,0 +1,872 @@
+{
+    "title": "Хувилбар A Англи хэл",
+    "description": "Элсэлтийн ерөнхий шалгалт-2023",
+    "duration": 120,
+    "is_active": true,
+    "total_points": 100,
+    "english_test_parts": [
+      {
+        "title": "PART I",
+        "order": 1,
+        "english_test_sections": [
+          {
+            "title": "SECTION 1 GRAMMAR",
+            "description": "Choose the correct answer to complete the sentences.",
+            "order": 1,
+            "english_test_tasks": [
+              {
+                "description": "Read the following sentences and choose the correct answer.",
+                "content": null,
+                "should_index": false,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Italy is in _____ South of _____ Europe, isn’t it?",
+                    "answer": "the / __",
+                    "choices": ["the / __", "an / a", "the / the", "the / an", "an / the"],
+                    "points": 1,
+                    "order": 1
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Anna: Hurry up! There’s _____ time to waste. The bus will be here soon.",
+                    "answer": "little",
+                    "choices": ["few", "a little", "little", "a few", "any"],
+                    "points": 1,
+                    "order": 2
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "I haven’t got _____ as cheap as that this year.",
+                    "answer": "anything",
+                    "choices": ["nowhere", "something", "anywhere", "anything", "nothing"],
+                    "points": 1,
+                    "order": 3
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The higher the fence is, _____ the neighbour is.",
+                    "answer": "the better",
+                    "choices": ["better", "the better", "the best", "good", "best"],
+                    "points": 1,
+                    "order": 4
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The rooms of the hotel have been _____ decorated to help you relax and feel at home.",
+                    "answer": "tastefully",
+                    "choices": ["tasteful", "tasty", "tastefully", "more tastefully", "more tasteful"],
+                    "points": 1,
+                    "order": 5
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Look! The bike is leaning _____ the garage wall.",
+                    "answer": "against",
+                    "choices": ["at", "with", "to", "against", "onto"],
+                    "points": 1,
+                    "order": 6
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "How rude _____ Frank to use Paula’s car without asking her.",
+                    "answer": "of",
+                    "choices": ["to", "for", "by", "about", "of"],
+                    "points": 1,
+                    "order": 7
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "This time next week we _____ for our holiday.",
+                    "answer": "will be packing",
+                    "choices": ["will be packing", "will pack", "will have packed", "will have been packing", "going to pack"],
+                    "points": 1,
+                    "order": 8
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "I _____ her for everything she _____.",
+                    "answer": "thanked / had done",
+                    "choices": [
+                      "had thanked / did",
+                      "thanked / did",
+                      "have thanked / has",
+                      "thanked / had done",
+                      "has thanked / does"
+                    ],
+                    "points": 1,
+                    "order": 9
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "_____ Sharon quite enjoys musicals, she really prefers serious dramas more.",
+                    "answer": "Although",
+                    "choices": ["As soon as", "Despite", "Although", "When", "Due to"],
+                    "points": 1,
+                    "order": 10
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The tour guide advised the tourist not _____ too much money out with them.",
+                    "answer": "to take",
+                    "choices": ["taking", "to take", "take", "to taking", "to be taken"],
+                    "points": 1,
+                    "order": 11
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The robber _____ at the airport soon.",
+                    "answer": "will be caught",
+                    "choices": ["has caught", "will catch", "would be caught", "will be caught", "has been caught"],
+                    "points": 1,
+                    "order": 12
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "“Will you be going to the USA next summer?” his boss asked.\nHis boss asked _____",
+                    "answer": "him if he would be going to the USA the following summer.",
+                    "choices": [
+                      "him he would be going to USA the following summer.",
+                      "him he would be going to the USA the next summer.",
+                      "him if he would be going to the USA the following summer.",
+                      "him if he would be going to the USA the previous summer.",
+                      "for him if he would be going to the USA the following summer."
+                    ],
+                    "points": 1,
+                    "order": 13
+                  },
+                  {
+                    "type": "ERROR_IDENTIFICATION",
+                    "content": "If the government would kept their promise, taxes wouldn’t have gone up last year.",
+                    "answer": "B",
+                    "choices": ["A", "B", "C", "D", "E"],
+                    "points": 3,
+                    "order": 14
+                  },
+                  {
+                    "type": "ERROR_IDENTIFICATION",
+                    "content": "The tribe’s sense of identity can easily been destroyed.",
+                    "answer": "C",
+                    "choices": ["A", "B", "C", "D", "E"],
+                    "points": 3,
+                    "order": 15
+                  },
+                  {
+                    "type": "ERROR_IDENTIFICATION",
+                    "content": "Her teachers sent her home because of she was such a naughty child.",
+                    "answer": "C",
+                    "choices": ["A", "B", "C", "D", "E"],
+                    "points": 3,
+                    "order": 16
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "He turned _____ the invitation to the concert as he was feeling tired.",
+                    "answer": "down",
+                    "choices": ["in", "back", "down", "up", "on"],
+                    "points": 2,
+                    "order": 17
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Simon always manages to get _____ doing the washing up because he says he has a lot of homework.",
+                    "answer": "out of",
+                    "choices": ["over", "out of", "through", "out", "get along"],
+                    "points": 2,
+                    "order": 18
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "SECTION 2 VOCABULARY",
+            "description": "Choose the correct word and phrase to complete sentences.",
+            "order": 2,
+            "english_test_tasks": [
+              {
+                "description": "Vocabulary multiple choice questions",
+                "content": null,
+                "should_index": true,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "You need to acquire _____ in social work.",
+                    "answer": "qualification",
+                    "choices": ["application", "qualification", "necessity", "operation", "cooperation"],
+                    "points": 1,
+                    "order": 19
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "He lied to me and to make matters worse, he didn’t ______ at all.",
+                    "answer": "apologize",
+                    "choices": ["thank", "apologize", "reject", "admit", "accept"],
+                    "points": 1,
+                    "order": 20
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The level of junk food _____ was illustrated by statistics.",
+                    "answer": "consumption",
+                    "choices": ["consideration", "compulsion", "consumption", "combination", "compassion"],
+                    "points": 1,
+                    "order": 21
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Many groups are working to reduce _____ to protect pastureland in the Gobi region.",
+                    "answer": "soil erosion",
+                    "choices": ["drought", "hazards", "blizzard", "soil erosion", "gale"],
+                    "points": 1,
+                    "order": 22
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Jack has already _____ a very good reputation as a talented prosecutor.",
+                    "answer": "gained",
+                    "choices": ["made", "won", "done", "gained", "achieved"],
+                    "points": 1,
+                    "order": 23
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The little boy’s eyes _____ when he saw his daddy.",
+                    "answer": "lit up",
+                    "choices": ["lit up", "shone", "lightened", "flowed", "darkened"],
+                    "points": 1,
+                    "order": 24
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Always _____ your files and any documents you’re working on.",
+                    "answer": "back up",
+                    "choices": ["back up", "hack into", "log in", "click on", "crash on"],
+                    "points": 1,
+                    "order": 25
+                  },  
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Alice: You were late for the meeting this morning!\nTom: I feel sorry for being tardy. The alarm didn’t go off.",
+                    "answer": "making an excuse",
+                    "choices": ["denying", "refusing", "making an excuse", "requesting", "regretting"],
+                    "points": 1,
+                    "order": 26
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Sharon: Who is the girl? Do you know her?\nJohn: She must be Alice’s daughter. She looks just like her.",
+                    "answer": "assumption",
+                    "choices": ["criticism", "complaint", "compliment", "assumption", "suggestion"],
+                    "points": 1,
+                    "order": 27
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Choose the most suitable word to complete each collocation fork: go on a, a balanced, a sensible.",
+                    "answer": "diet",
+                    "choices": ["date", "meal", "solution", "plan", "diet"],
+                    "points": 3,
+                    "order": 28
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Choose the most suitable word to complete each collocation fork: knowledge, wisdom, information.",
+                    "answer": "to impart",
+                    "choices": ["to impart", "to conduct", "to instruct", "to earn", "to endure"],
+                    "points": 3,
+                    "order": 29
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "I recognize a few words in the passage, therefore, I ________.",
+                    "answer": "try hard to catch the meaning of every word",
+                    "choices": [
+                      "find it easy to understand the whole content",
+                      "keep my mouth shut like a fish",
+                      "am not eager to learn new words",
+                      "try hard to catch the meaning of every word",
+                      "never look up a new word in a dictionary"
+                    ],
+                    "points": 1,
+                    "order": 30
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Choose the most possible solution to flood.",
+                    "answer": "dams and canals",
+                    "choices": ["stonework", "wind turbines", "dams and canals", "tunnels and subways", "sea barrier"],
+                    "points": 1,
+                    "order": 31
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Finally the department’s solution to the problem hit the nail on the head.",
+                    "answer": "The staff did exactly right.",
+                    "choices": [
+                      "The accident was caused by the failures.",
+                      "The staff did exactly right.",
+                      "The staff’s solution was not bad.",
+                      "The staff’s act was quite smart.",
+                      "The staff hit the box of nails."
+                    ],
+                    "points": 3,
+                    "order": 32
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The computer he gave you isn't the best one in the world, but you shouldn't look a gift horse in the mouth.",
+                    "answer": "You should not complain about the gift given to you.",
+                    "choices": [
+                      "You should give back the computer to him.",
+                      "The computer is a bad gift.",
+                      "You should not complain about the gift given to you.",
+                      "Never receive a gift you don’t like.",
+                      "Receiving a horse as a gift is his hobby."
+                    ],
+                    "points": 3,
+                    "order": 33
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "SECTION 3 COMMUNICATION",
+            "description": "Read the conversations and choose the correct answers.",
+            "order": 3,
+            "english_test_tasks": [
+              {
+                "description": "Communication multiple choice questions",
+                "content": null,
+                "should_index": true,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Teller: Can I help you?\nCustomer: Yes, I’d like to _____ a withdrawal from my account, please.",
+                    "answer": "make",
+                    "choices": ["open", "get", "take", "make", "lend"],
+                    "points": 1,
+                    "order": 34
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Man: These drones aren’t as expensive as I thought.\nWoman: They’re _____ cheap right now because a new model has just come out.",
+                    "answer": "going",
+                    "choices": ["bringing up", "giving", "asking", "sending", "going"],
+                    "points": 1,
+                    "order": 35
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Where is the bus station?\nThe most polite form: __________",
+                    "answer": "Could you tell me where the bus station is?",
+                    "choices": [
+                      "Could you tell me where the bus station is?",
+                      "Can you tell me where is the bus station?",
+                      "Could you tell me where is the bus station?",
+                      "Tell me, where is the bus station?",
+                      "Tell me, where is the bus station, please?"
+                    ],
+                    "points": 2,
+                    "order": 36
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Alice: Can I have a salad and rice with my lunch?\nJohn: No, you have to choose, salad or rice, but not both.",
+                    "answer": "make a choice",
+                    "choices": [
+                      "make a change",
+                      "make an effort",
+                      "make a habit",
+                      "make a choice",
+                      "make a point"
+                    ],
+                    "points": 3,
+                    "order": 37
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Tutor: It was very good that you had a lot of statistics in your presentation.\nJohn: Thank you. I seemed to be able to talk about them.\nAnna: It was fine to listen to, but I couldn’t write the notes down.\nWhat does Anna mean?",
+                    "answer": "The presenter’s pace was a bit quick at times.",
+                    "choices": [
+                      "The presentation was very interesting.",
+                      "The presenter’s speed was a bit slow sometimes.",
+                      "The presenter’s pace was a bit quick at times.",
+                      "The presentation was easy to understand.",
+                      "There was a good time planning."
+                    ],
+                    "points": 3,
+                    "order": 38
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "SECTION 4 READING",
+            "description": "Read the passage and choose the correct answers.",
+            "order": 4,
+            "english_test_tasks": [
+              {
+                "description": "Reading comprehension",
+                "content": "(1) High traffic levels remain a problem for many governments. Car ownership in fast-developing countries continues to double each year, and migration to cities is also rising quickly, resulting in high levels of congestion and pollution.\n(2) Until recently, governments successfully controlled traffic levels by imposing financial obligations on drivers. They made it more expensive to drive by raising taxes on petrol or increasing parking costs, while making public transport cheaper by investing in rail and bus travel. However, these ‘tax and spend’ approaches are no longer possible to introduce easily. This is because living costs are growing in many countries, so governments can’t spend as much money and people are angry when they have to pay more. New controls are, therefore, needed.\n(3) Legal solutions to congestion issues are now attracting greater interest. However, traffic laws and regulations have often proved ineffective. For example, banning cars in city centres has simply transferred problems to the edge of cities. Similarly, controlling speed limits has been effective on fast roads but has done little to solve congestion in urban areas.\n(4) A more effective legal intervention might be to stop some people from driving altogether – but who exactly? If workers were stopped from driving, they might not be able to get to work. Many older citizens and families also rely on cars to move around easily. Furthermore, both these groups vote frequently, so it would be a political disaster to prevent them from driving.\n(5) This leaves young people. Many people would agree with raising the minimum driving age in order to reduce the number of drivers on the road and cut pollution. Young people make up over 25% of road deaths in many countries and, according to recent research, parts of the brain that help to calculate risks and consequences are not fully developed until the age of 25. Consequently, there have already been discussions in the media about stopping young people driving or carrying passengers.\n(6) Of course, young people would have to be given financial assistance to make sure public transport remained affordable for them. But as pressure grows on the governments to reduce congestion, it surely makes sense to postpone the time that young drivers get their licenses until a little later in life.",
+                "should_index": true,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "What title will be the most suitable for the passage?",
+                    "answer": "Relationship between driving age and serious accidents",
+                    "choices": [
+                      "Increase in car’s popularity",
+                      "Starting to drive at 25",
+                      "Relationship between driving age and serious accidents",
+                      "Car dependence of a social group",
+                      "Environmental benefit of raising driving age"
+                    ],
+                    "points": 1,
+                    "order": 39
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "What do the ‘tax and spend’ approaches mean?",
+                    "answer": "increase fuel price and car maintenance cost",
+                    "choices": [
+                      "tax the young drivers if they are younger than 25",
+                      "increase fuel price and living cost",
+                      "decrease public transport fee",
+                      "increase fuel price and car maintenance cost",
+                      "increase living cost"
+                    ],
+                    "points": 1,
+                    "order": 40
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Young people make up more than 25% of _____",
+                    "answer": "road deaths",
+                    "choices": [
+                      "road accidents",
+                      "road congestion",
+                      "city pollution",
+                      "public transport",
+                      "road deaths"
+                    ],
+                    "points": 1,
+                    "order": 41
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Which group is NOT mentioned as the community that can cause the political disaster?",
+                    "answer": "young people",
+                    "choices": [
+                      "young people",
+                      "workers",
+                      "older citizens",
+                      "families",
+                      "governments"
+                    ],
+                    "points": 1,
+                    "order": 42
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "According to the text why can people get angry? When _____",
+                    "answer": "they have to pay more",
+                    "choices": [
+                      "the young people have to get their driving licenses at 25",
+                      "they have to use public transport",
+                      "the brains of young people cannot calculate risk",
+                      "they have to pay more",
+                      "the governments try to reduce congestion"
+                    ],
+                    "points": 3,
+                    "order": 43
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Which statement agrees with the information in the text?",
+                    "answer": "The suggestion can encourage young people to use public transport if the governments provide some financial support.",
+                    "choices": [
+                      "Governments allow a certain number of vehicles into the city centres if drivers can afford the increased expense for having own car.",
+                      "Raising the minimum driving age to 25 can improve the health of young people.",
+                      "Banning cars in urban areas can fully solve the congestion and pollution.",
+                      "Laws and regulations have stopped driving of all age drivers.",
+                      "The suggestion can encourage young people to use public transport if the governments provide some financial support."
+                    ],
+                    "points": 3,
+                    "order": 44
+                  }
+                ]
+              },
+              {
+                "description": "Choose the most appropriate word for the game definition.",
+                "content": null,
+                "should_index": true,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Doing crosswords: A word game with black and white squares where you write _____ in the _____ squares is a crossword.",
+                    "answer": "a word / white",
+                    "choices": [
+                      "puzzle / empty",
+                      "clue / black",
+                      "a word / white",
+                      "cross / clue",
+                      "puzzle / white"
+                    ],
+                    "points": 2,
+                    "order": 45
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Volleyball is a game in which two teams _____ a ball with their hands backwards and forwards over a high net.",
+                    "answer": "hit",
+                    "choices": [
+                      "kick",
+                      "hit",
+                      "bounce",
+                      "possess",
+                      "roll"
+                    ],
+                    "points": 2,
+                    "order": 46
+                  }
+                ]
+              },
+              {
+                "description": "Complete the sentence with the most appropriate phrase.",
+                "content": null,
+                "should_index": true,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "What you will say when someone is playing in a dishonest or unfair way?",
+                    "answer": "You can’t do that, it’s considered as a foul play.",
+                    "choices": [
+                      "It’s your move.",
+                      "You have really good hand.",
+                      "You can’t do that, it’s considered as a foul play.",
+                      "I knew, I’d win.",
+                      "Push your pedals."
+                    ],
+                    "points": 3,
+                    "order": 47
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "Хоёрдугаар хэсэг",
+        "order": 2,
+        "english_test_sections": [
+          {
+            "title": "Word Forms",
+            "description": "Choose the correct form that best fits each blank.",
+            "order": 1,
+            "english_test_task_multiple_blank": [
+              {
+                "description": "Fill in the blanks with the correct word form",
+                "content": "Astronauts have to pass a medical and have a (a) _____ in a relevant subject. They have to be willing to live in an (b) _____ small space and work well with other people. Experiments can go (c) _____ wrong, risking the lives of astronauts. They have to be able to react (d) _____ in a difficult situation as well as be prepared to work hard. The first British astronaut was a woman named Helen Sharman. She got the job after hearing an (e) _____ on the radio. There were 18,000 applicants and, luckily for Helen, she was chosen. She said that the most (f) _____ thing for her was seeing the earth from 120 miles into space.",
+                "english_test_multiple_blank_questions": [
+                  {
+                    "answer": "qualification",
+                    "choices": [
+                      "qualification",
+                      "quality",
+                      "qualify",
+                      "disqualification",
+                      "qualifying"
+                    ],
+                    "points": 1,
+                    "order": 1
+                  },
+                  {
+                    "answer": "extreme",
+                    "choices": [
+                      "extremism",
+                      "extreme",
+                      "extricate",
+                      "extremist",
+                      "extremely"
+                    ],
+                    "points": 1,
+                    "order": 2
+                  },
+                  {
+                    "answer": "dangerous",
+                    "choices": [
+                      "dangerously",
+                      "dangerous",
+                      "danger",
+                      "out of danger",
+                      "in danger"
+                    ],
+                    "points": 1,
+                    "order": 3
+                  },
+                  {
+                    "answer": "calmly",
+                    "choices": [
+                      "calm",
+                      "calmly",
+                      "calmness",
+                      "calming",
+                      "calmed"
+                    ],
+                    "points": 1,
+                    "order": 4
+                  },
+                  {
+                    "answer": "announcement",
+                    "choices": [
+                      "announcing",
+                      "announce",
+                      "announced",
+                      "announcement",
+                      "announcer"
+                    ],
+                    "points": 1,
+                    "order": 5
+                  },
+                  {
+                    "answer": "amazing",
+                    "choices": [
+                      "amazement",
+                      "amazingly",
+                      "amazed",
+                      "amazing",
+                      "amaze"
+                    ],
+                    "points": 1,
+                    "order": 6
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Synonyms Matching",
+            "description": "Choose the word that has a similar meaning to the underlined word. Match the words (a-h) with their synonyms in each sentence in the column (1-8).",
+            "order": 2,
+            "english_test_task_match": [
+              {
+                "description": "Match the phrases",
+                "english_test_match_questions": [
+                  {
+                    "answer": "provoke",
+                    "choices": [
+                      "to provoke",
+                      "significant",
+                      "to pacify",
+                      "to decrease",
+                      "to persuade",
+                      "to imitate",
+                      "rapid",
+                      "constant"
+                    ],
+                    "matcher": "Finally, her behavior began to irritate him.",
+                    "points": 1
+                  },
+                  {
+                    "answer": "significant",
+                    "choices": [
+                      "to provoke",
+                      "significant",
+                      "to pacify",
+                      "to decrease",
+                      "to persuade",
+                      "to imitate",
+                      "rapid",
+                      "constant"
+                    ],
+                    "matcher": "Mining is the most important sector in our economics.",
+                    "points": 1
+                  },
+                  {
+                    "answer": "decrease",
+                    "choices": [
+                      "to provoke",
+                      "significant",
+                      "to pacify",
+                      "to decrease",
+                      "to persuade",
+                      "to imitate",
+                      "rapid",
+                      "constant"
+                    ],
+                    "matcher": "The number of workers has declined during Covid-19 pandemic.",
+                    "points": 1
+                  },
+                  {
+                    "answer": "pacify",
+                    "choices": [
+                      "to provoke",
+                      "significant",
+                      "to pacify",
+                      "to decrease",
+                      "to persuade",
+                      "to imitate",
+                      "rapid",
+                      "constant"
+                    ],
+                    "matcher": "Mom would take me in her arms and soothe me.",
+                    "points": 1
+                  },
+                  {
+                    "answer": "imitate",
+                    "choices": [
+                      "to provoke",
+                      "significant",
+                      "to pacify",
+                      "to decrease",
+                      "to persuade",
+                      "to imitate",
+                      "rapid",
+                      "constant"
+                    ],
+                    "matcher": "She resembles her other very closely.",
+                    "points": 1
+                  },
+                  {
+                    "answer": "rapid",
+                    "choices": [
+                      "to provoke",
+                      "significant",
+                      "to pacify",
+                      "to decrease",
+                      "to persuade",
+                      "to imitate",
+                      "rapid",
+                      "constant"
+                    ],
+                    "matcher": "He thinks, he is a reasonably quick learner.",
+                    "points": 1
+                  },
+                  {
+                    "answer": "constant",
+                    "choices": [
+                      "to provoke",
+                      "significant",
+                      "to pacify",
+                      "to decrease",
+                      "to persuade",
+                      "to imitate",
+                      "rapid",
+                      "constant"
+                    ],
+                    "matcher": "My computer makes a continuous low buzzing noise.",
+                    "points": 1
+                  },
+                  {
+                    "answer": "persuade",
+                    "choices": [
+                      "to provoke",
+                      "significant",
+                      "to pacify",
+                      "to decrease",
+                      "to persuade",
+                      "to imitate",
+                      "rapid",
+                      "constant"
+                    ],
+                    "matcher": "He managed to convince the jury of his innocence.",
+                    "points": 1
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "Music and Culture",
+            "description": "Choose the best word to fit each blank.",
+            "order": 3,
+            "english_test_task_multiple_blank": [
+              {
+                "description": "Fill in the blanks with the correct word",
+                "content": "Music is thought to be one of mankind’s greatest inventions. It is found all over the world and is an important part of culture and (a) _____. One curious fact is that music has formed a part of all the different (b) _____ on our planet. Music is seen as one of the purest and most emotional creations and it would be hard to imagine our (c) _____ without it. What we need to do is make sure that it does not become too controlled by (d) _____ and allow people to be creative and express themselves through music. People are constantly inventing new (e) _____ of music and it makes such an interesting topic of (f) _____. Let’s just hope that this will never stop.",
+                "english_test_multiple_blank_questions": [
+                  {
+                    "answer": "traditions",
+                    "choices": [
+                      "fun",
+                      "habits",
+                      "traditions",
+                      "health",
+                      "belief"
+                    ],
+                    "points": 1,
+                    "order": 1
+                  },
+                  {
+                    "answer": "civilizations",
+                    "choices": [
+                      "people",
+                      "civilizations",
+                      "festivals",
+                      "citizens",
+                      "adults"
+                    ],
+                    "points": 1,
+                    "order": 2
+                  },
+                  {
+                    "answer": "lives",
+                    "choices": [
+                      "times",
+                      "existences",
+                      "routines",
+                      "periods",
+                      "lives"
+                    ],
+                    "points": 1,
+                    "order": 3
+                  },
+                  {
+                    "answer": "money",
+                    "choices": [
+                      "income",
+                      "cash",
+                      "money",
+                      "expenses",
+                      "currency"
+                    ],
+                    "points": 1,
+                    "order": 4
+                  },
+                  {
+                    "answer": "genres",
+                    "choices": [
+                      "genres",
+                      "classes",
+                      "categories",
+                      "kinds",
+                      "series"
+                    ],
+                    "points": 1,
+                    "order": 5
+                  },
+                  {
+                    "answer": "learning",
+                    "choices": [
+                      "school",
+                      "agreement",
+                      "argument",
+                      "conversation",
+                      "learning"
+                    ],
+                    "points": 1,
+                    "order": 6
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

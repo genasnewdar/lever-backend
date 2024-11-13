@@ -1,0 +1,624 @@
+{
+    "title": "Хувилбар-А Англи хэл",
+    "description": "English Test Version A",
+    "duration": 720,
+    "is_active": true,
+    "total_points": 100,
+    "english_test_parts": [
+      {
+        "title": "PART I",
+        "order": 1,
+        "english_test_sections": [
+          {
+            "title": "SECTION 1 GRAMMAR",
+            "description": "",
+            "order": 1,
+            "english_test_tasks": [
+              {
+                "description": "Read the following sentences and choose the correct answer to complete each sentence.",
+                "content": null,
+                "should_index": false,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "I don't mind ____________________a cat in my house so long as it doesn't smell.",
+                    "answer": "having",
+                    "choices": ["had", "have", "to have", "having", "have to"],
+                    "points": 1,
+                    "order": 1
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "I'm very busy with my thesis. I have ____________________time for other things.",
+                    "answer": "little",
+                    "choices": ["a little", "much", "little", "few", "any"],
+                    "points": 1,
+                    "order": 2
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The house was empty for a month __________________ my neighbors moved out.",
+                    "answer": "after",
+                    "choices": ["while", "until", "during", "before", "after"],
+                    "points": 1,
+                    "order": 3
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "They asked me a lot of questions, most of ___________________I couldn't answer.",
+                    "answer": "which",
+                    "choices": ["whom", "where", "that", "which", "when"],
+                    "points": 1,
+                    "order": 4
+                  }
+                ]
+              },
+              {
+                "description": "Read the following sentences and choose the correct answer to complete each sentence.",
+                "content": null,
+                "should_index": false,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "If you put your money in a savings, you _____ eight per cent interest.",
+                    "answer": "which",
+                    "choices": ["to get", "were getting", "get", "got", "are getting"],
+                    "points": 2,
+                    "order": 1                    
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Eventually, you’ll ___________________ the smells in the laboratory.",
+                    "answer": "",
+                    "choices": ["got use to", "get used to", "used to", "got used to", "get use to"],
+                    "points" : 2,
+                    "order": 2
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Your friends live far from you. You would like them to live nearer to you.   You say: I wish my friends _____________________nearer to me.",
+                    "answer": "",
+                    "choices": ["have lived", "lived", "had lived", "were living", "would live"],
+                    "points": 2,
+                    "order": 3
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "During her stay in Mongolia, Susan tried almost all the local foods her friends ______.",
+                    "answer": "",
+                    "choices": ["had recommended", "would recommend", "have recommended", "were recommending", "are recommending"],
+                    "points": 2,
+                    "order": 4
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The boys ________________________ by the police on their way home.",
+                    "answer": "",
+                    "choices": ["have stopped", "stopped", "were stopped", "was stopped", "had stopped"],
+                    "points": 2,
+                    "order": 5
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Direct speech: “You play the guitar very well, Chimgee,” the teacher told. Reported speech: The teacher told Chimgee (that) _______________________.",
+                    "answer": "",
+                    "choices": ["she is playing the guitar very well", "she plays the guitar very well", "you played the guitar very well", "she played the guitar very well", "you play the guitar very well"],
+                    "points": 2,
+                    "order": 6
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The recipe tells you to use a pound and a _______________________ butter.",
+                    "answer": "",
+                    "choices": ["each of", "all of", "both of", "none of", "half of"],
+                    "points": 2,
+                    "order": 7
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Yesterday Lisa went to the hairdresser’s. She _________________________.",
+                    "answer": "",
+                    "choices": ["had her hair cut", "is cutting her hair", "cut her hair", "was cutting her hair", "cuts her hair"],
+                    "points": 2,
+                    "order": 8
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "If he ___________________ where he was going, he wouldn’t have walked into the wall.",
+                    "answer": "",
+                    "choices": ["has been looking", "has looked", "had been looking", "looked", "was looking"],
+                    "points": 2,
+                    "order": 9
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Chimgee earns two times ______________ much ______________ I do.",
+                    "answer": "",
+                    "choices": ["both/and", "as/if", "like/as", "as/as", "alike/as"],
+                    "points": 2,
+                    "order": 10
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "I took a vest with me ___________________________ I wouldn’t get cold.",
+                    "answer": "",
+                    "choices": ["in order to", "so that", "to", "so as", "as if"],
+                    "points": 2,
+                    "order": 11
+                  }                  
+                ]
+              },
+              {
+                "description": "Identify the underlined part that should be corrected in each sentence.",
+                "content": null,
+                "should_index": false,
+                "english_test_questions": [
+                  {
+                    "type":"MULTIPLE_CHOICES",
+                    "content": "Most candles are <u>made of</u> paraffin wax <u>mix</u> with compounds <u>that</u> have a higher melting point <u>to keep</u> them from <u>melting</u> in hot weather.",
+                    "answer": "",
+                    "choices": ["made of", "mix", "that", "to keep", "melting"],
+                    "points": 2,
+                    "order": 1
+                  },
+                  {
+                    "type":"MULTIPLE_CHOICES",
+                    "content": "A <u>fully grown</u> <u>male</u> mountain <u>lion</u> may <u>be</u> eight <u>long feet</u>.",
+                    "answer": "",
+                    "choices": ["fully grown", "male", "lion", "be", "long feet"],
+                    "points": 2,
+                    "order": 2
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "SECTION 2 VOCABULARY",
+            "description": "",
+            "order": 2,
+            "english_test_tasks": [
+              {
+                "description": "Read the sentences and choose the correct word to complete each sentence.",
+                "content": null,
+                "should_index": true,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "We can travel to Brighton______________by bus or by train; the fare is almost the same.",
+                    "answer": "either",
+                    "choices": ["both", "none", "neither", "either", "all"],
+                    "points": 1,
+                    "order": 1
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The more he looked at her, _______________________________embarrassed she was.",
+                    "answer": "the more",
+                    "choices": ["more", "the most", "the more", "mostly", "much"],
+                    "points": 1,
+                    "order": 2
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "John is ____________________________ and needs help when asked to sign papers.",
+                    "answer": "",
+                    "choices": ["literate", "illiterate", "literacy", "illiteracy", "literally"],
+                    "points": 2,
+                    "order": 3
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "When you go to the town, could you please buy a ____________ of jam for me?",
+                    "answer": "",
+                    "choices": ["bar", "can", "bag", "jar", "carton"],
+                    "points": 2,
+                    "order": 4
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "My boss __________ this language course to me.",
+                    "answer": "",
+                    "choices": ["recommended", "persuaded", "influenced", "criticized", "maintained"],
+                    "points": 2,
+                    "order": 5
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Teaching English in a lively interesting way increases students’ ___________ to learn.",
+                    "answer": "",
+                    "choices": ["volunteering", "tolerance", "diversity", "motivation", "automation"],
+                    "points": 2,
+                    "order": 6
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The forecast is for dry, sunny weather with no _____________________ expected.",
+                    "answer": "",
+                    "choices": ["degradation", "desertification", "precipitation", "protection", "permission"],
+                    "points": 2,
+                    "order": 7
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "My ______________ is that you’re not getting enough work done.",
+                    "answer": "",
+                    "choices": ["concentration", "concern", "occupation", "action", "attachment"],
+                    "points": 2,
+                    "order": 8
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Synthetic fabrics are made from __________ substances, not natural ones.",
+                    "answer": "",
+                    "choices": ["organic", "artificial", "unique", "modern", "combined"],
+                    "points": 2,
+                    "order": 9
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The two countries have ____________ close ties for centuries.",
+                    "answer": "",
+                    "choices": ["confused", "distracted", "debated", "maintained", "ignored"],
+                    "points": 2,
+                    "order": 10
+                  }
+                ]
+              },
+              {
+                "description": "Complete the phrasal verbs with the correct particles.",
+                "content": null,
+                "should_index": true,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Because of some mistakes in my test, my teacher made me do it _____________.",
+                    "answer": "",
+                    "choices": ["without", "with", "away", "in", "over"],
+                    "points": 2,
+                    "order": 1
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "After the thieves are captured, the stolen items will be turned _____ to the rightful owners.",
+                    "answer": "",
+                    "choices": ["in", "away", "into", "against", "down"],
+                    "points": 2,
+                    "order": 2
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Chimgee is nearly eight feet tall and has red hair, so she really sticks ______ in a crowd.",
+                    "answer": "",
+                    "choices": ["to", "down", "around", "with", "out"],
+                    "points": 2,
+                    "order": 3
+                  }                  
+                ]
+              }
+            ]
+          },
+          {
+            "title": "SECTION 3 COMMUNICATION",
+            "description": "",
+            "order": 3,
+            "english_test_tasks": [
+              {
+                "description": "Read the conversations and choose the best answers.",
+                "content": null,
+                "should_index": true,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Man: Does Judy prefer saving her money?\nWoman: ___________________ She loves to buy things.",
+                    "answer": "No, she'd rather not save.",
+                    "choices": [
+                      "Yes, she always saves her money.",
+                      "Yes, she'd rather save.",
+                      "No, she wouldn't rather spend her money.",
+                      "No, she'd rather not save.",
+                      "Yes, she prefers saving her money."
+                    ],
+                    "points": 2,
+                    "order": 1
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Woman: Richard, may I use your phone? I think mine is out of order.\nMan: _____________ .",
+                    "answer": "",
+                    "choices": ["Feel free", "Take it easy", "So do I", "Go ahead", "Sounds great"],
+                    "points": 2,
+                    "order": 2
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Student: Did people there use to be poor?\nTeacher: _________________ They used to be rich.",
+                    "answer": "",
+                    "choices": [
+                      "Yes, they were.",
+                      "Yes, they did.",
+                      "No, they didn’t.",
+                      "No, they weren’t.",
+                      "No, people weren’t."
+                    ],
+                    "points": 2,
+                    "order": 3
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Woman: I was wondering if I could borrow a cup of sugar. I was baking a cake, but I ran out of it.\nMan: I’m glad it’s your turn to ask for something.\nWhat does the man mean?",
+                    "answer": "",
+                    "choices": [
+                      "He is happy to see the woman again.",
+                      "He is glad that he can return a favor.",
+                      "He is glad the woman went running.",
+                      "It was her turn to ask the question.",
+                      "The woman spent the afternoon baking some cake."
+                    ],
+                    "points": 4,
+                    "order": 4
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Woman: It’s dark in the front hall.\nMan: The bulb’s burned out.\nWhat does the woman imply?",
+                    "answer": "",
+                    "choices": [
+                      "The ball is in the front hall.",
+                      "She can smell something burning.",
+                      "She turned the light off.",
+                      "The light doesn’t work.",
+                      "The woman has to light a candle."
+                    ],
+                    "points": 4,
+                    "order": 5
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "SECTION 4 READING",
+            "description": "",
+            "order": 4,
+            "english_test_tasks": [
+              {
+                "description": "Task 1: Read the passage and choose the correct answers.",
+                "content": "(1) When John was growing up, other kids felt sorry for him because his parents always made him weed the garden, carry out the garbage and deliver newspapers. But when John reached adulthood, he was better than his childhood playmates. He had more job satisfaction, a better marriage, and was healthier. Most of all, he was happier. Far happier.\n\n(2) The findings of a 40-year study that observed the lives of 456 teenage boys from Boston showed that those who had worked during their boyhood enjoyed happier and more productive lives than those who had not. \"Boys who worked in the home or community gained more competence and came to feel ts worthwhile members of society\", said George Vaillant, the psychologist who made the discovery. As he also said, \"Because they felt good about themselves, others felt good about them as well.\"\n\n(3) Vaillant's study observed these males in great detail. Interviews were repeated at the ages of 25,31 and 47. Under Vaillant's supervision, the researchers compared the men's mental health scores with their boyhood-activity scores. Points were awarded for their part-time jobs, housework, school efforts, and ability to deal with problems.\n\n(4) The link between the scores of men's boyhood and adulthood activities was surprisingly sharp. Those who had done the most boyhood activities were twice as likely to have warm relations with a wide variety of people, five times as likely to be well paid, and 16 times less likely to have been unemployed. The researchers also found that IQ, family, a social and economic status made no real difference in how the boys turned out to be adults.\n\n(5) Working at any age is important. Childhood activities help children develop their abilities to be responsible, independent, confident and competent—the underpinnings of emotional health. They also help them understand the importance of cooperative work toward common goals. The most confident adults are those who know how to do this. Yet work isn't everything. As Tolstoy once said, \"On,e can live magnificently in this world if he/she knows how to work and love, and how to work for the person one loves and love one's work.\"",
+                "should_index": true,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "What do we know about John?",
+                    "answer": "",
+                    "choices": [
+                      "He had few childhood playmates.",
+                      "He received little love from his family.",
+                      "He was envied by others in his childhood.",
+                      "He felt sorry for his childhood.",
+                      "He enjoyed his career and marriage."
+                    ],
+                    "points": 2,
+                    "order": 1
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Vaillant's words in Paragraph 2 serve as___________.",
+                    "answer": "an exlanation of why some boys grew into happy men",
+                    "choices": [
+                      "an explanation of why some boys grew into happy men",
+                      "a description of personal values and social values",
+                      "an analysis of how work was related to competence",
+                      "an example of parents' expectations of their children",
+                      "advice on how to become a worthy member of society"
+                    ],
+                    "points": 2,
+                    "order": 2
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Vaillant’s team obtained their findings by ___________.",
+                    "answer": "",
+                    "choices": [
+                      "recording the boys’ effort in school",
+                      "evaluating the men’s mental health",
+                      "measuring the men’s problem-solving ability",
+                      "comparing different sets of scores",
+                      "meeting the teenage boys’ parents"
+                    ],
+                    "points": 2,
+                    "order": 3
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The word 'sharp' in paragraph 4 is closest in meaning to:",
+                    "answer": "",
+                    "choices": [
+                      "quick to react",
+                      "having a thin edge",
+                      "clear and definite",
+                      "sudden and rapid",
+                      "easy to cut"
+                    ],
+                    "points": 2,
+                    "order": 4
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "What can be inferred from the last paragraph?",
+                    "answer": "",
+                    "choices": [
+                      "Competent adults know more about love than work.",
+                      "Emotional health is essential to wonderful adult life.",
+                      "Love brings more joy to people than work does.",
+                      "Independence is the key to one’s success.",
+                      "Confident adults know more about work than love."
+                    ],
+                    "points": 2,
+                    "order": 5
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The word 'They' in paragraph 5 refers to:",
+                    "answer": "",
+                    "choices": [
+                      "children",
+                      "childhood activities",
+                      "underpinnings of emotional health",
+                      "adulthood activities",
+                      "researchers"
+                    ],
+                    "points": 2,
+                    "order": 6
+                  }                  
+                ]
+              }
+            ],
+            "english_test_task_multiple_blank": [
+              {
+                "description": "Fill in the blanks with the correct word form",
+                "content": "The zoo is celebrating its 60th anniversary with a £12 million redevelopment - imaginative landscaping that gives more (45) _________ to animals and birds. One of the zoo’s (46) _________ is to keep a small number of species - only 50 mammals - but in larger (47) ___________ than usual. Star features include an award-winning primate enclosure, elephant house, new bird house, and underwater viewing facilities for penguins and sea lions.",
+                "english_test_multiple_blank_questions": [
+                  {
+                    "answer": "",
+                    "choices": ["impression", "instruction", "democracy", "privacy", "pharmacy"],
+                    "points": 1,
+                    "order": 1
+                  },
+                  {
+                    "answer": "",
+                    "choices": ["pets", "services", "viewers", "visitors", "principles"],
+                    "points": 1,
+                    "order": 2
+                  },
+                  {
+                    "answer": "",
+                    "choices": ["numbers", "places", "symbols", "audiences", "areas"],
+                    "points": 1,
+                    "order": 3
+                  }
+                ]
+              }                
+            ]
+          }
+        ]
+      },
+      {
+        "title": "PART II",
+        "order": 2,
+        "english_test_sections": [
+          {
+            "title": "Matching Exercise",
+            "description": "Combine each phrase in column \"A\" with a suitable phrase from column \"B\". Not all phrases in column \"B\" will be used.",
+            "order": 1,
+            "english_test_task_match": [
+              {
+                "description": "Match the phrases",
+                "english_test_match_questions": [
+                  {
+                    "answer": "She's not only beautiful and intelligent but",
+                    "choices": [
+                      "The advertisements are specifically aimed",
+                      "He got the job despite",
+                      "I hired him because",
+                      "He seems well-educated; however,",
+                      "She's not only beautiful and intelligent but",
+                      "Adults often laugh"
+                    ],
+                    "matcher": "at very young children.",
+                    "points": 1
+                  },
+                  {
+                    "answer": "Adults often laugh",
+                    "choices": [
+                      "The advertisements are specifically aimed",
+                      "He got the job despite",
+                      "I hired him because",
+                      "He seems well-educated; however,",
+                      "She's not only beautiful and intelligent but",
+                      "Adults often laugh"
+                    ],
+                    "matcher": "not having much experience.",
+                    "points": 1
+                  }
+                ]
+              },
+              {
+                "description": "Match words with definitions",
+                "english_test_match_questions": [
+                  {
+                    "answer": "",
+                    "choices": ["habitat", "polyglot", "compassion", "resident", "hijacker", "contamination"],
+                    "matcher": "the natural environment in which a plant or animal lives",
+                    "points": 1
+                  },
+                  {
+                    "answer": "",
+                    "choices": ["habitat", "polyglot", "compassion", "resident", "hijacker", "contamination"],
+                    "matcher": "a person who knows and uses several languages",
+                    "points": 1
+                  }
+                ]
+              }
+            ],
+            "english_test_task_multiple_blank": [
+              {
+                "description": "Fill in the blanks with the correct word form",
+                "content": "About 5000 years ago, China lost much of its wood because of overpopulation and poor (a) ____ of its forests. This (b) _____ was very bad for their country, of course, but it turned out to be very good for the food. Wood became very expensive and (c) ______to get, so the Chinese had to either find a substitute for their valuable wood or learn how to use it better. In order to (d) ______in cooking, they had to use very little wood. So they started cutting their meat and vegetables into small pieces before they put them in the hot oil. That way, the food cooked faster, and they saved their fuel. The food (e)________ in this manner kept its fresh (f) _________. This flavor attracts people to the art of Chinese (g) _________. I often wonder if the Chinese (h) ________their solution to that ancient energy crisis as much as I do now- whenever I eat Chinese food.",
+                "english_test_multiple_blank_questions": [
+                  {
+                    "answer": "",
+                    "choices": ["manageable", "manager", "manageress", "management", "manage"],
+                    "points": 1,
+                    "order": 1
+                  },
+                  {
+                    "answer": "",
+                    "choices": ["loser", "lost", "losses", "lose", "loss"],
+                    "points": 1,
+                    "order": 2
+                  },
+                  {
+                    "answer": "",
+                    "choices": ["hard", "hardly", "hardening", "hardened", "hardness"],
+                    "points": 1,
+                    "order": 3
+                  },
+                  {
+                    "answer": "",
+                    "choices": ["economist", "economy", "economize", "economic", "economical"],
+                    "points": 1,
+                    "order": 4
+                  },
+                  {
+                    "answer": "",
+                    "choices": ["preparation", "prepare", "preparedness", "prepared", "preparatory"],
+                    "points": 1,
+                    "order": 5
+                  },
+                  {
+                    "answer": "",
+                    "choices": ["flavor", "flavored", "flavoring", "flavorless", "flavorful"],
+                    "points": 1,
+                    "order": 6
+                  },
+                  {
+                    "answer": "",
+                    "choices": ["cooking", "cook", "cooker", "cooked", "cookie"],
+                    "points": 1,
+                    "order": 7
+                  },
+                  {
+                    "answer": "",
+                    "choices": ["appreciable", "appreciated", "appreciation", "appreciative", "appreciatively"],
+                    "points": 1,
+                    "order": 8
+                  }
+                ]                
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+  

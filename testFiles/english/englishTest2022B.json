@@ -1,0 +1,755 @@
+{
+    "title": "Хувилбар-Б Англи хэл",
+    "description": "English Test Version B",
+    "duration": 720,
+    "is_active": true,
+    "total_points": 100,
+    "english_test_parts": [
+        {
+            "title": "PART I",
+            "order": 1,
+            "english_test_sections": [
+                {
+                    "title": "SECTION 1 GRAMMAR",
+                    "order": 1,
+                    "english_test_tasks": [
+                        {
+                            "description": "Read the following sentences and choose the correct answer to complete each sentence.",
+                            "content": null,
+                            "should_index": false,
+                            "english_test_questions": [
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "I can’t imagine Susan ________ a horse.",
+                                    "answer": "riding",
+                                    "choices": ["riding", "rode", "rides", "to ride", "has ridden"],
+                                    "points": 1,
+                                    "order": 1
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Let’s go and have a cup of coffee. We have ______time before the train leaves.",
+                                    "answer": "a little",
+                                    "choices": ["few", "no", "a little", "little", "any"],
+                                    "points": 1,
+                                    "order": 2
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "My grandmother has had a hard life and has grown old _______her time.",
+                                    "answer": "before",
+                                    "choices": ["during", "after", "until", "before", "while"],
+                                    "points": 1,
+                                    "order": 3
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Scientists have advanced many theories about why human beings cry tears, but none of _____________has been proved.",
+                                    "answer": "which",
+                                    "choices": ["when", "whom", "that", "where", "which"],
+                                    "points": 1,
+                                    "order": 4
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Just as I got to the school gate, I realized I _______my umbrella in the restaurant.",
+                                    "answer": "had left",
+                                    "choices": ["would leave", "was leaving", "have left", "had left", "were leaving"],
+                                    "points": 1,
+                                    "order": 5
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "If you add three and two, you ______ five.",
+                                    "answer": "get",
+                                    "choices": ["got", "will get", "get", "would get", "are getting"],
+                                    "points": 1,
+                                    "order": 6
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "We didn’t like living in the big cities at first, but we ___________ it.",
+                                    "answer": "got used to",
+                                    "choices": ["get used to", "got used to", "am use to", "be used to", "use to"],
+                                    "points": 1,
+                                    "order": 7
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Your apartment is old and small. You would like to live in a nice big apartment. You say: I wish I ____________ in a nice big apartment.",
+                                    "answer": "were living",
+                                    "choices": ["would live", "were living", "had lived", "lived", "have lived"],
+                                    "points": 1,
+                                    "order": 8
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Many new buildings __________ during the storm.",
+                                    "answer": "were damaged",
+                                    "choices": ["had damaged", "damaged", "have damaged", "was damaged", "were damaged"],
+                                    "points": 1,
+                                    "order": 9
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Direct speech: “I’m waiting for my English exam result,” Chimgee said. Reported speech: Chimgee said (that)____________________.",
+                                    "answer": "she was waiting for her English exam result",
+                                    "choices": [
+                                        "she was waiting for her English exam result",
+                                        "she is waiting for my English exam result",
+                                        "she has been waiting for her English exam result",
+                                        "she waited for her English exam result",
+                                        "she was waiting for my English exam result"
+                                    ],
+                                    "points": 1,
+                                    "order": 10
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "I’ll turn the TV on _______ I can watch the news.",
+                                    "answer": "so that",
+                                    "choices": ["so as", "in order to", "to", "so that", "for"],
+                                    "points": 1,
+                                    "order": 11
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "We live in _____village _____ their parents.",
+                                    "answer": "the same/as",
+                                    "choices": ["not so/as", "as/as", "the same/as", "so/as", "both/and"],
+                                    "points": 1,
+                                    "order": 12
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "My interest in music came from my parents, _________whom were musicians.",
+                                    "answer": "both of",
+                                    "choices": ["half of", "both of", "all of", "none of", "neither of"],
+                                    "points": 1,
+                                    "order": 13
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Tom’s car was broken down. He went to the mechanic’s last weekend. He____________________________.",
+                                    "answer": "had his car repaired",
+                                    "choices": [
+                                        "repaired his car",
+                                        "had repaired his car",
+                                        "has his car repaired",
+                                        "had his car repaired",
+                                        "was repairing his car"
+                                    ],
+                                    "points": 1,
+                                    "order": 14
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "If he ______________________too much, he wouldn’t have felt sick.",
+                                    "answer": "hadn’t eaten",
+                                    "choices": [
+                                        "hadn’t been eaten",
+                                        "didn’t eat",
+                                        "hasn’t eaten",
+                                        "wasn’t eating",
+                                        "hadn’t eaten"
+                                    ],
+                                    "points": 1,
+                                    "order": 15
+                                }
+                            ]
+                        },
+                        {
+                            "description": "Identify the underlined part that should be corrected in each sentence.",
+                            "content": null,
+                            "should_index": false,
+                            "english_test_questions": [
+                                {
+                                    "content": "Ants are blind to red light, so it is possible to observe themselves in an artificial nest without disturbing their activities.",
+                                    "points": 1
+                                },
+                                {
+                                    "content": "More pigs are raised in Lowa than in other any state.",
+                                    "points": 1
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "SECTION 2 VOCABULARY",
+                    "order": 2,
+                    "english_test_tasks": [
+                        {
+                            "description": "Vocabulary multiple choice questions",
+                            "content": null,
+                            "should_index": true,
+                            "english_test_questions": [
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "________________Jim nor Tom passed the exam.",
+                                    "answer": "Neither",
+                                    "choices": ["Either", "Both", "Neither", "All", "None"],
+                                    "points": 1,
+                                    "order": 1
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Alex is very ______________of his younger sister.",
+                                    "answer": "protective",
+                                    "choices": ["protect", "protection", "protected", "protective", "protector"],
+                                    "points": 1,
+                                    "order": 2
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "We must get a _________of flour, and some eggs and apples, so we can make an apple pie for dessert.",
+                                    "answer": "bag",
+                                    "choices": ["box", "can", "tube", "bar", "bag"],
+                                    "points": 1,
+                                    "order": 3
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "The more he exercises, ____________he will be.",
+                                    "answer": "the healthier",
+                                    "choices": ["the healthier", "healthiest", "healthier", "the healthiest", "healthy"],
+                                    "points": 1,
+                                    "order": 4
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Children_________their necks to see who their mother was talking to.",
+                                    "answer": "craned",
+                                    "choices": ["nodded", "spilled", "fluttered", "craned", "ignored"],
+                                    "points": 1,
+                                    "order": 5
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "The Professor just wanted to ______the importance of learning foreign languages.",
+                                    "answer": "emphasize",
+                                    "choices": ["grasp", "integrate", "damage", "extend", "emphasize"],
+                                    "points": 1,
+                                    "order": 6
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Regular exercise is good for your body and brain. It _______your blood with oxygen.",
+                                    "answer": "enriches",
+                                    "choices": ["stores", "influences", "enriches", "processes", "produces"],
+                                    "points": 1,
+                                    "order": 7
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Millions of birds migrate to the south every year. It is an annual __________.",
+                                    "answer": "phenomenon",
+                                    "choices": ["celebration", "phenomenon", "perception", "motivation", "behavior"],
+                                    "points": 1,
+                                    "order": 8
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "The heavy rain flooded the field, and the ground was muddy. Under these _______the kids couldn’t play.",
+                                    "answer": "circumstances",
+                                    "choices": ["willingness", "basements", "decisions", "circumstances", "cells"],
+                                    "points": 1,
+                                    "order": 9
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Many foreign _________attended the opening ceremony.",
+                                    "answer": "dignitaries",
+                                    "choices": ["scavengers", "failures", "abilities", "attempts", "dignitaries"],
+                                    "points": 1,
+                                    "order": 10
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "If I could do it ____________again, I’d do it differently.",
+                                    "answer": "over",
+                                    "choices": ["over", "without", "away", "in", "with"],
+                                    "points": 1,
+                                    "order": 11
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "It’s getting late, I’m turning _________.",
+                                    "answer": "in",
+                                    "choices": ["into", "around", "in", "up", "off"],
+                                    "points": 1,
+                                    "order": 12
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Be careful walking in the woods, there are a lot of branches sticking _____.",
+                                    "answer": "out",
+                                    "choices": ["to", "at", "by", "out", "with"],
+                                    "points": 1,
+                                    "order": 13
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Jake and I lost our jobs yesterday. Now we are in the same boat.",
+                                    "answer": "They are in the same bad situation.",
+                                    "choices": [
+                                        "They are in the broken boat.",
+                                        "They have a good situation.",
+                                        "They are looking for a job.",
+                                        "They are travelling by boat.",
+                                        "They are in the same bad situation."
+                                    ],
+                                    "points": 2,
+                                    "order": 14
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "I only got the message by word of mouth.",
+                                    "answer": "The message passed from person to person.",
+                                    "choices": [
+                                        "He read the message from the newspaper.",
+                                        "The message was passed by his mom.",
+                                        "He opened his mouth while he was reading the message.",
+                                        "The message passed from person to person.",
+                                        "He was only mouthing the message."
+                                    ],
+                                    "points": 2,
+                                    "order": 15
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "My girlfriend always acts as if she was born yesterday.",
+                                    "answer": "She is naive because she doesn’t have much experience in life.",
+                                    "choices": [
+                                        "She is naive because she doesn’t have much experience in life.",
+                                        "She was born yesterday.",
+                                        "Her boyfriend doesn’t know what she really wants.",
+                                        "She believes that the best way to learn is by experience.",
+                                        "His girlfriend is very thoughtful."
+                                    ],
+                                    "points": 2,
+                                    "order": 16
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "SECTION 3 COMMUNICATION",
+                    "order": 3,
+                    "english_test_tasks": [
+                        {
+                            "description": "Communication multiple choice questions",
+                            "content": null,
+                            "should_index": true,
+                            "english_test_questions": [
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Woman: What do Connie and Pierre do? Man: Connie is a manager at Faces and Places, and ____________Pierre.",
+                                    "answer": "so is",
+                                    "choices": ["so is", "so does", "either does", "neither is", "is too"],
+                                    "points": 2,
+                                    "order": 1
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Man: Who does Mary look like? Woman: She and her mother look_____________.",
+                                    "answer": "alike",
+                                    "choices": ["alike", "like", "dislike", "unlike", "likely"],
+                                    "points": 2,
+                                    "order": 2
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Girl: I really must be going now. Boy: But you’ve just come. Wouldn’t you like to stay for a snack? Girl: That’s very kind of you, but I mustn’t be too late. Boy: ________________ Girl: Thanks very much for the party.",
+                                    "answer": "What a pity!",
+                                    "choices": ["What a surprise!", "I’d be glad to.", "With pleasure.", "Sounds great.", "What a pity!"],
+                                    "points": 2,
+                                    "order": 3
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Man: How did Fred manage to pass his social psychology class? Woman: It is a mystery to me. What does the woman mean?",
+                                    "answer": "She doesn’t know.",
+                                    "choices": [
+                                        "Fred is mysterious.",
+                                        "Fred’s class is not difficult.",
+                                        "Fred’s social psychology class is mysterious.",
+                                        "Social psychology class is interesting to the woman.",
+                                        "She doesn’t know."
+                                    ],
+                                    "points": 2,
+                                    "order": 4
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Man: Is it okay for me to leave my car here just for a few minutes? Woman: You are blocking the driveway. What does the woman say?",
+                                    "answer": "The man can’t park there.",
+                                    "choices": [
+                                        "It’s okay to leave the car only for a few minutes.",
+                                        "She doesn’t live on this block.",
+                                        "The man should park in the driveway.",
+                                        "She lives around the block.",
+                                        "The man can’t park there."
+                                    ],
+                                    "points": 2,
+                                    "order": 5
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "title": "SECTION 4 READING",
+                    "order": 4,
+                    "english_test_tasks": [
+                        {
+                            "description": "Reading comprehension",
+                            "content": "(1) Daniel Andersen, a famous psychologist, believes that it’s important to distinguish television’s influences on children from those of the family. We tend to blame TV, he says, for problems it doesn’t really cause, overlooking our roles in shaping children’s minds.\n\n(2) One traditional belief about television is that it reduces a child’s ability to think and understand the world. While watching TV, children do not merely absorb words and images. Instead, they learn both explicit and hidden meanings from what they see. Actually, children learn the psychology of characters in TV shows earlier. Furthermore, as many teachers agree, children understand far more when their parents watch TV with them, explaining new words and ideas. Yet, most parents use an educational program as a chance to park their kids in front of the set and do something else in another room.\n\n(3) Another argument against television is that it replaces reading as a form of entertainment. But according to Anderson, the amount of time spent watching television is not related to the children’s reading ability. TV doesn’t take the place of reading for most children; it takes the place of similar sorts of recreation, such as listening to the radio and playing sports. Things like parents’ educational background have a stronger influence on a child’s reading. “A child’s reading ability is best predicted by how much a parent reads,” Anderson says.\n\n(4) According to traditional wisdom, heavy television watching affects children’s IQ scores and even their school performance. However, Anderson notes that no studies have proved it. In fact, research suggests that it’s the other way around. “If you are smart, you will watch less TV when you are older,” Andersen says. Yet, people with a lower IQ tend to be lifelong television viewers.\n\n(5) For years, researchers have attempted to show that television is dangerous to children. However, the studies have not shown the dangerous effects of television as conventionally believed yet. Anderson suggests that television cannot be condemned without considering other influences.",  
+                            "should_index": true,
+                            "english_test_questions": [
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "By watching TV, children learn___________.",
+                                    "answer": "more than explicit meanings",
+                                    "choices": ["images through words", "more about images than words", "little about people’s psychology", "more than explicit meanings", "more about words than images"],
+                                    "points": 2,
+                                    "order": 1
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "An educational program is best watched by a child __________.",
+                                    "answer": "with his parents",
+                                    "choices": [
+                                        "on his own",
+                                        "with other kids",
+                                        "with his teachers",
+                                        "with his parents",
+                                        "with his classmates"
+                                    ],
+                                    "points": 2,
+                                    "order": 2
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Which of the following is most related to children’s reading ability?",
+                                    "answer": "parents’ educational background",
+                                    "choices": [
+                                        "radio listening",
+                                        "television watching",
+                                        "parents’ educational background",
+                                        "parents’ reading list",
+                                        "teachers’ educational background"
+                                    ],
+                                    "points": 2,
+                                    "order": 3
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "Anderson believes that _____________.",
+                                    "answer": "the smarter a child is, the less likely he gets addicted to TV",
+                                    "choices": [
+                                        "the more a child watches TV, the smarter he becomes",
+                                        "the smarter a child is, the less likely he gets addicted to TV",
+                                        "the younger a child is, the more he watches TV",
+                                        "the less a child watches TV, the better he performs at school",
+                                        "the older a child is, the less likely he gets addicted to TV"
+                                    ],
+                                    "points": 2,
+                                    "order": 4
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "The word 'condemned' in paragraph 5 is closest in meaning to:",
+                                    "answer": "criticized",
+                                    "choices": [
+                                        "believed",
+                                        "criticized",
+                                        "considered",
+                                        "predicted",
+                                        "continued"
+                                    ],
+                                    "points": 2,
+                                    "order": 5
+                                },
+                                {
+                                    "type": "MULTIPLE_CHOICES",
+                                    "content": "The word 'them' in paragraph 2 refers to:",
+                                    "answer": "children",
+                                    "choices": [
+                                        "words and images",
+                                        "hidden meanings",
+                                        "characters in TV shows",
+                                        "children",
+                                        "teachers"
+                                    ],
+                                    "points": 2,
+                                    "order": 6
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "title": "PART II",
+            "order": 2,
+            "english_test_sections": [
+              {
+                "title": "Matching Exercise",
+                "description": "Combine each phrase in column \"A\" with a suitable phrase from column \"B\". Not all phrases in column \"B\" will be used.",
+                "order": 1,
+                "english_test_task_match": [
+                  {
+                    "description": "Match the phrases",
+                    "english_test_match_questions": [
+                      {
+                        "answer": "to the decision was furious.",
+                        "choices": [
+                          "I don’t like her.",
+                          "other reasons that we don’t know about.",
+                          "had an enormous breakfast.",
+                          "for washing dishes.",
+                          "mainly of rice and vegetables.",
+                          "but the reason for her actions remained unclear.",
+                          "to the decision was furious.",
+                          "having eaten an enormous breakfast."
+                        ],
+                        "matcher": "The public reaction",
+                        "points": 1
+                      },
+                      {
+                        "answer": "mainly of rice and vegetables.",
+                        "choices": [
+                          "I don’t like her.",
+                          "other reasons that we don’t know about.",
+                          "had an enormous breakfast.",
+                          "for washing dishes.",
+                          "mainly of rice and vegetables.",
+                          "but the reason for her actions remained unclear.",
+                          "to the decision was furious.",
+                          "having eaten an enormous breakfast."
+                        ],
+                        "matcher": "It’s a simple dish to prepare, consisting",
+                        "points": 1
+                      },
+                      {
+                        "answer": "having eaten an enormous breakfast.",
+                        "choices": [
+                          "I don’t like her.",
+                          "other reasons that we don’t know about.",
+                          "had an enormous breakfast.",
+                          "for washing dishes.",
+                          "mainly of rice and vegetables.",
+                          "but the reason for her actions remained unclear.",
+                          "to the decision was furious.",
+                          "having eaten an enormous breakfast."
+                        ],
+                        "matcher": "He managed to eat big lunch despite",
+                        "points": 1
+                      },
+                      {
+                        "answer": "for washing dishes.",
+                        "choices": [
+                          "I don’t like her.",
+                          "other reasons that we don’t know about.",
+                          "had an enormous breakfast.",
+                          "for washing dishes.",
+                          "mainly of rice and vegetables.",
+                          "but the reason for her actions remained unclear.",
+                          "to the decision was furious.",
+                          "having eaten an enormous breakfast."
+                        ],
+                        "matcher": "Before I went out I",
+                        "points": 1
+                      },
+                      {
+                        "answer": "other reasons that we don’t know about.",
+                        "choices": [
+                          "I don’t like her.",
+                          "other reasons that we don’t know about.",
+                          "had an enormous breakfast.",
+                          "for washing dishes.",
+                          "mainly of rice and vegetables.",
+                          "but the reason for her actions remained unclear.",
+                          "to the decision was furious.",
+                          "having eaten an enormous breakfast."
+                        ],
+                        "matcher": "There may, however, be",
+                        "points": 1
+                      },
+                      {
+                        "answer": "but the reason for her actions remained unclear.",
+                        "choices": [
+                          "I don’t like her.",
+                          "other reasons that we don’t know about.",
+                          "had an enormous breakfast.",
+                          "for washing dishes.",
+                          "mainly of rice and vegetables.",
+                          "but the reason for her actions remained unclear.",
+                          "to the decision was furious.",
+                          "having eaten an enormous breakfast."
+                        ],
+                        "matcher": "She tried to explain everything,",
+                        "points": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Word Definitions",
+                "description": "Match the words with their definitions. There are two extra definitions.",
+                "order": 2,
+                "english_test_task_match": [
+                  {
+                    "description": "Match words with definitions",
+                    "english_test_match_questions": [
+                      {
+                        "answer": "settler",
+                        "choices": [
+                          "settler",
+                          "half-brother",
+                          "mature",
+                          "murderer",
+                          "curved",
+                          "diversity"
+                        ],
+                        "matcher": "someone who goes to live in a new place",
+                        "points": 1
+                      },
+                      {
+                        "answer": "half-brother",
+                        "choices": [
+                          "settler",
+                          "half-brother",
+                          "mature",
+                          "murderer",
+                          "curved",
+                          "diversity"
+                        ],
+                        "matcher": "a son of someone’s stepmother or stepfather",
+                        "points": 1
+                      },
+                      {
+                        "answer": "mature",
+                        "choices": [
+                          "settler",
+                          "half-brother",
+                          "mature",
+                          "murderer",
+                          "curved",
+                          "diversity"
+                        ],
+                        "matcher": "become more developed mentally and emotionally and behave in a responsible way",
+                        "points": 1
+                      },
+                      {
+                        "answer": "murderer",
+                        "choices": [
+                          "settler",
+                          "half-brother",
+                          "mature",
+                          "murderer",
+                          "curved",
+                          "diversity"
+                        ],
+                        "matcher": "someone who illegally and intentionally kills another person",
+                        "points": 1
+                      },
+                      {
+                        "answer": "curved",
+                        "choices": [
+                          "settler",
+                          "half-brother",
+                          "mature",
+                          "murderer",
+                          "curved",
+                          "diversity"
+                        ],
+                        "matcher": "line or shape that bends like part of a circle",
+                        "points": 1
+                      },
+                      {
+                        "answer": "diversity",
+                        "choices": [
+                          "settler",
+                          "half-brother",
+                          "mature",
+                          "murderer",
+                          "curved",
+                          "diversity"
+                        ],
+                        "matcher": "a range of different people or things",
+                        "points": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Word Forms",
+                "description": "Choose the correct word form that best fits in each blank.",
+                "order": 3,
+                "english_test_task_multiple_blank": [
+                  {
+                    "description": "Fill in the blanks with the correct word form",
+                    "content": "In 1929, when aviation was still very new, a French pilot and novelist-Antoine de St. Exupery-took on a job that (a) _____ the mail service in South America. He set up an air mail route that (b) ______the cities of South America and cut the (c) ________ time of mail from several months to a few days. Delivering the mail by air was not a new idea in 1929, but it was still a very daring one. Flying was full of (d)________ . The aviation technology we have today wasn’t yet (e)________. Pilots had to use (f)_______instruments such as compasses and road maps. Airplanes had small engines and (g)_____ a lot of power when they flew at high altitudes. These planes couldn’t fly over heights, so mountains, tall buildings, and even trees were dangerous. Also, these small planes weren’t (h)______enough to fly above storms and bad weather.",
+                    "english_test_multiple_blank_questions": [
+                      {
+                        "answer": "changed",
+                        "choices": ["changed", "change", "changing", "changeable", "changeless"],
+                        "points": 1,
+                        "order": 1
+                      },
+                      {
+                        "answer": "joined",
+                        "choices": ["jointed", "joiner", "joint", "join", "joined"],
+                        "points": 1,
+                        "order": 2
+                      },
+                      {
+                        "answer": "delivery",
+                        "choices": ["deliverance", "deliver", "delivery", "deliverable", "deliverer"],
+                        "points": 1,
+                        "order": 3
+                      },
+                      {
+                        "answer": "danger",
+                        "choices": ["dangerous", "dangers", "danger", "dangerously", "endanger"],
+                        "points": 1,
+                        "order": 4
+                      },
+                      {
+                        "answer": "invented",
+                        "choices": ["invented", "invention", "inventor", "inventive", "inventively"],
+                        "points": 1,
+                        "order": 5
+                      },
+                      {
+                        "answer": "simple",
+                        "choices": ["simplicity", "simple", "simplify", "simplification", "simply"],
+                        "points": 1,
+                        "order": 6
+                      },
+                      {
+                        "answer": "loss",
+                        "choices": ["lose", "loss", "losses", "lost", "loser"],
+                        "points": 1,
+                        "order": 7
+                      },
+                      {
+                        "answer": "powerful",
+                        "choices": ["powered", "power", "powerless", "powerfully", "powerful"],
+                        "points": 1,
+                        "order": 8
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+    ]
+}

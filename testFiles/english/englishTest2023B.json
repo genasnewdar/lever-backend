@@ -1,0 +1,939 @@
+{
+    "title": "Хувилбар B Англи хэл",
+    "description": "Элсэлтийн ерөнхий шалгалт-2023",
+    "duration": 120,
+    "is_active": true,
+    "total_points": 100,
+    "english_test_parts": [
+      {
+        "title": "PART I",
+        "order": 1,
+        "english_test_sections": [
+            {
+                "description": "Read the following sentences and choose the correct answer.",
+                "content": null,
+                "should_index": false,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "_____ Sahara is in the northern part of _____ Africa.",
+                    "answer": "The / the",
+                    "choices": [
+                      "A. The /__",
+                      "B. __/ the",
+                      "C. A / an",
+                      "D. The / the",
+                      "E. The / an"
+                    ],
+                    "points": 1,
+                    "order": 1
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Alice: Do you think about the future?\nJohn: No. Very _____ people care for what the future will be like.",
+                    "answer": "few",
+                    "choices": [
+                      "A. a few",
+                      "B. much",
+                      "C. little",
+                      "D. few",
+                      "E. many"
+                    ],
+                    "points": 1,
+                    "order": 2
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "There was _____ in the cinema other than us.",
+                    "answer": "no one",
+                    "choices": [
+                      "A. anyone",
+                      "B. no one",
+                      "C. someone",
+                      "D. everyone",
+                      "E. each one"
+                    ],
+                    "points": 1,
+                    "order": 3
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "_____ I think about it, the less happy I feel.",
+                    "answer": "The more",
+                    "choices": [
+                      "A. Much more",
+                      "B. More",
+                      "C. Most",
+                      "D. Much",
+                      "E. The more"
+                    ],
+                    "points": 1,
+                    "order": 4
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "In the city you can walk from point A to point B _____ than by car.",
+                    "answer": "more quickly",
+                    "choices": [
+                      "A. quickly",
+                      "B. more quickly",
+                      "C. quick",
+                      "D. quicker",
+                      "E. most quickly"
+                    ],
+                    "points": 1,
+                    "order": 5
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "I parked the car _____ the trees; there was a charming, little cottage.",
+                    "answer": "between",
+                    "choices": [
+                      "A. in",
+                      "B. between",
+                      "C. among",
+                      "D. along",
+                      "E. on"
+                    ],
+                    "points": 1,
+                    "order": 6
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Hard work is an essential key _____ success.",
+                    "answer": "to",
+                    "choices": [
+                      "A. with",
+                      "B. for",
+                      "C. of",
+                      "D. to",
+                      "E. from"
+                    ],
+                    "points": 1,
+                    "order": 7
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "By three o’clock the students _____ the test for two hours.",
+                    "answer": "will have been sitting",
+                    "choices": [
+                      "A. will have been sitting",
+                      "B. will sit",
+                      "C. will be doing",
+                      "D. is going to sit",
+                      "E. will have done"
+                    ],
+                    "points": 1,
+                    "order": 8
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "They _____ for two hours before they finally _____ their destination.",
+                    "answer": "had been driving / reached",
+                    "choices": [
+                      "A. were driving / reached",
+                      "B. drove / reached",
+                      "C. had been driving / reached",
+                      "D. had driven / had reached",
+                      "E. drove / had reached"
+                    ],
+                    "points": 1,
+                    "order": 9
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Chloe’s father promised her a car _____ she didn’t pass her final exam.",
+                    "answer": "even though",
+                    "choices": [
+                      "A. despite",
+                      "B. even though",
+                      "C. because",
+                      "D. whereas",
+                      "E. so that"
+                    ],
+                    "points": 1,
+                    "order": 10
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "I still remember _____ absolutely terrified when I got lost in the Gobi.",
+                    "answer": "being",
+                    "choices": [
+                      "A. was",
+                      "B. be",
+                      "C. to be",
+                      "D. being",
+                      "E. been"
+                    ],
+                    "points": 1,
+                    "order": 11
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "By the time we arrived at the market, the best fruit _____ .",
+                    "answer": "had been sold",
+                    "choices": [
+                      "A. was being sold",
+                      "B. had sold",
+                      "C. sold",
+                      "D. was sold",
+                      "E. had been sold"
+                    ],
+                    "points": 1,
+                    "order": 12
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "“Did you book a room for the holiday yesterday?” she asked him.\nShe asked _____ .",
+                    "answer": "If he had booked a room for the holiday the day before yesterday",
+                    "choices": [
+                      "A. If he had booked a room for the holiday the day before yesterday",
+                      "B. whether she booked a room for the holiday yesterday",
+                      "C. If had he booked a room for the holiday the day before yesterday",
+                      "D. did he book a room for the holiday the previous day",
+                      "E. had he booked a room for the holiday the day before yesterday"
+                    ],
+                    "points": 1,
+                    "order": 13
+                  }
+                ]
+              },
+              {
+                "description": "Read the following sentences and identify the part that needs correction.",
+                "content": null,
+                "should_index": false,
+                "english_test_questions": [
+                  {
+                    "type": "ERROR_IDENTIFICATION",
+                    "content": "If I would bought a second-hand car, I wouldn’t have taken out this big bank loan.",
+                    "answer": "A",
+                    "choices": ["A", "B", "C", "D", "E"],
+                    "points": 3,
+                    "order": 14
+                  },
+                  {
+                    "type": "ERROR_IDENTIFICATION",
+                    "content": "Medical scientists have already put computer chips directly into the brain helping people who have Parkinson’s disease.",
+                    "answer": "C",
+                    "choices": ["A", "B", "C", "D", "E"],
+                    "points": 3,
+                    "order": 15
+                  },
+                  {
+                    "type": "ERROR_IDENTIFICATION",
+                    "content": "This jacket is too expensive, as I can’t afford it.",
+                    "answer": "E",
+                    "choices": ["A", "B", "C", "D", "E"],
+                    "points": 3,
+                    "order": 16
+                  }
+                ]
+              },
+              {
+                "description": "Read the following sentences and complete the phrasal verbs with the correct particles.",
+                "content": null,
+                "should_index": false,
+                "english_test_questions": [
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "I was looking for a job but nothing suitable turned _____, so I booked a holiday.",
+                    "answer": "up",
+                    "choices": ["on", "back", "in", "up", "down"],
+                    "points": 2,
+                    "order": 17
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "The suspect gave _____ his secret in order to get the reward offered.",
+                    "answer": "away",
+                    "choices": ["off", "back", "away", "up", "over"],
+                    "points": 2,
+                    "order": 18
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "title": "SECTION 2 VOCABULARY",
+            "description": "Choose the correct word and phrase to complete sentences.",
+            "order": 2,
+            "english_test_tasks": [
+                {
+                    "description": "Read the following sentences and choose the correct word or phrase to complete them.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "I’ve got great _____ on my assignment from the teacher who remarked how I could improve on it.",
+                        "answer": "feedback",
+                        "choices": ["feedback", "portfolio", "debate", "grant", "finance"],
+                        "points": 1,
+                        "order": 19
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "Roads should have a _____ so that people can cross the road safely.",
+                        "answer": "zebra crossing",
+                        "choices": ["zebra crossing", "intersection", "dead end", "one-way street", "lane"],
+                        "points": 1,
+                        "order": 20
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "The particles that make up plasmas have electric charges, so plasmas can _____ electricity.",
+                        "answer": "conduct",
+                        "choices": ["dissolve", "attract", "affect", "insulate", "conduct"],
+                        "points": 1,
+                        "order": 21
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "When fossil fuels burn, different substances are _____ into the air.",
+                        "answer": "released",
+                        "choices": ["supplied", "tapped", "trapped", "released", "accelerated"],
+                        "points": 1,
+                        "order": 22
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "In the tournament, Hannah _____ all her opponents and won the gold medal.",
+                        "answer": "beat",
+                        "choices": ["had", "gained", "beat", "granted", "rewarded"],
+                        "points": 1,
+                        "order": 23
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "The cave of the Apocalypse in Greece is in the list of UNESCO world _____ sites.",
+                        "answer": "heritage",
+                        "choices": ["legacy", "representation", "heritage", "tradition", "masterpiece"],
+                        "points": 1,
+                        "order": 24
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "I was working on my presentation and suddenly the screen _____ black.",
+                        "answer": "turned",
+                        "choices": ["crashed", "went", "installed", "loaded", "turned"],
+                        "points": 1,
+                        "order": 25
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "Anna: You must come and visit us some time. Don’t keep putting it off.\nTom: Yes, I’ll come and see you in the not too distant future.",
+                        "answer": "promise",
+                        "choices": ["demand", "promise", "offer", "prediction", "appointment"],
+                        "points": 1,
+                        "order": 26
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "Alice: Would you like some black coffee?\nJack: I can’t drink bitter coffee.",
+                        "answer": "refusal",
+                        "choices": ["offer", "opinion", "refusal", "confusion", "excuse"],
+                        "points": 1,
+                        "order": 27
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Complete the collocations with the correct word.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "Choose the most suitable word to complete each collocation fork: a valuable, a rich, a reliable.",
+                        "answer": "source",
+                        "choices": ["determination", "enthusiasm", "source", "guarantee", "extension"],
+                        "points": 3,
+                        "order": 28
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "Choose the most suitable word to complete each collocation fork: tears, laughter, song.",
+                        "answer": "to let out",
+                        "choices": ["to let out", "to make", "to bump into", "to burst into", "to cry over"],
+                        "points": 3,
+                        "order": 29
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Complete the student's comment with the correct phrase.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "I struggle to speak for a long time and say ‘Err’ a lot when I _____.",
+                        "answer": "run out of ideas",
+                        "choices": ["run out of ideas", "avoid pronouncing words", "find my spoken fluency", "provide feedback on the grammatical accuracy", "have a significant impact"],
+                        "points": 3,
+                        "order": 30
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "Choose the most possible solution to air pollution.",
+                        "answer": "hybrid cars",
+                        "choices": ["temporary shelters", "dump sites", "organic products", "hybrid cars", "exhaust fumes"],
+                        "points": 3,
+                        "order": 31
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Choose the correct meaning for the idioms.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "He was late and made up some cock-and-bull story about losing his car keys.",
+                        "answer": "He told a fake story.",
+                        "choices": ["He was upset about being late.", "Other people thought he was true.", "He was involved in illegal activities.", "He told a story about animals.", "He told a fake story."],
+                        "points": 3,
+                        "order": 32
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "The police will arrest the suspect by hook or by crook.",
+                        "answer": "They will use any method possible.",
+                        "choices": ["They will investigate all offenders.", "They will use technological devices.", "They will mobilize all units.", "They will use any method possible.", "They will be on duty at check-points."],
+                        "points": 3,
+                        "order": 33
+                      }
+                    ]
+                  }
+            ]
+          },
+          {
+            "title": "SECTION 3 COMMUNICATION",
+            "description": "Read the conversations and choose the correct answers.",
+            "order": 3,
+            "english_test_tasks": [
+                {
+                    "description": "Choose the best answers to complete the conversations.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "Bank manager: Is your company _____ money?\nCustomer: Yes. We are in profit, so we have a steady income.",
+                        "answer": "making",
+                        "choices": ["taking", "getting", "making", "asking", "giving"],
+                        "points": 1,
+                        "order": 34
+                      },
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "Son: Dad, will you lend me some money to buy a new drone?\nFather: Well, money is rather _____ at the moment. Ask your mother.",
+                        "answer": "tight",
+                        "choices": ["strong", "slim", "hard", "few", "tight"],
+                        "points": 1,
+                        "order": 35
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Choose the most polite form.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "How far is it to Darkhan city?\nThe most polite form: __________",
+                        "answer": "Could you tell me how far it is to Darkhan city?",
+                        "choices": [
+                          "Can you tell me how far is it to Darkhan city?",
+                          "Could you tell me how far is it to Darkhan city?",
+                          "Tell me, how far it to Darkhan city is?",
+                          "Could you tell me how far it is to Darkhan city?",
+                          "Tell me, how far it is to Darkhan city, please?"
+                        ],
+                        "points": 2,
+                        "order": 36
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Choose the most appropriate phrase instead of the underlined word.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "Alice: It’s so difficult. Should I take the job or not?\nJohn: I know it’s difficult. But you have to <u>decide</u> one way or the other.",
+                        "answer": "make a decision",
+                        "choices": [
+                          "make an effort",
+                          "make a habit",
+                          "make a decision",
+                          "make an excuse",
+                          "make a change"
+                        ],
+                        "points": 3,
+                        "order": 37
+                      }
+                    ]
+                  },
+                  {
+                    "description": "Read the short conversation and choose the correct answer.",
+                    "content": null,
+                    "should_index": false,
+                    "english_test_questions": [
+                      {
+                        "type": "MULTIPLE_CHOICES",
+                        "content": "John: Ok, so that’s it. Thank you for listening. I think we have a few minutes for some questions and feedback...?\nTutor: I thought it was really good.\nAnna: Yeah... I think...maybe, some animation on the slides might’ve been useful. What do you think?",
+                        "answer": "The slides should be livelier if they have visuals.",
+                        "choices": [
+                          "It’s a very serious presentation.",
+                          "Some slides should be removed.",
+                          "Suppose some more slides should be added.",
+                          "The slides should be livelier if they have visuals.",
+                          "The presentation needs some more examples."
+                        ],
+                        "points": 3,
+                        "order": 38
+                      }
+                    ]
+                  }
+                ]
+              },
+            
+        
+        {
+        "title": "SECTION 4 READING",
+        "description": "Read the passage and choose the correct answers.",
+        "order": 4,
+        "english_test_tasks": [
+          {
+            "description": "Reading comprehension",
+            "content": "(1) Why do some achieve more than others? Ask a successful person and they may point to their talents and hard work. Investor Warren Buffet, for instance, suggests that integrity, intelligence, and energy are essential, whereas for millionaire Marc Andreessen it’s about motivation, drive, ethics, and curiosity. In short, what’s on the inside is key. Research suggests that what’s on the outside counts more than we think.\n(2) Person’s intelligence and family background have much less impact after leaving university. Recent research into legal careers shows that while students from well-educated families tend to enter the profession more easily, the less advantaged students that enter usually earn more and work for better firms. Some causes of success clearly lie beyond academic achievement.\n(3) Admittedly, the capacity for hard work is probably important, too. A recent study found that people who earn less than $20,000 a year spent more than a third of their time in passive leisure. By contrast, those earning more than $100,000 a year spent less than a fifth of their time relaxing.\n(4) Indeed, new research suggests that a wide variety of external factors also assist high achievers. Rice University, in Texas, found that a person’s looks and smile particularly help them to gain trust and so bring employment or promotion opportunities. A person’s height and the depth of their voice are also significant, it would seem. Male Chief Executive Officers (CEO) are over 7 centimetres taller than the average man, according to Harvard University, and those with lower-pitched voices apparently have better social connection than other CEOs.\n(5) Self-presentation and the dressing way also play a role. For example, a typical pink shirt wearer earns $1,000 more per year than males who wear more sober colours for work. Another study showed that women who wear make-up are far more likely to be taken seriously than those who don’t, demonstrating that appearance itself bring rewards.\n(6) So, is style becoming more important than substance? Given the importance of the visual image in the modern media, it would not be surprising. Perhaps, teaching the art of making an impression on others may be as valuable to today’s generation as a traditional schooling.",
+            "should_index": true,
+            "english_test_questions": [
+                {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "What is the topic of the passage?",
+                    "answer": "E. Sources of success",
+                    "choices": ["A. The effects of good education", "B. Dressing for success", "C. The views of successful people", "D. The impact of intelligence", "E. Sources of success"],
+                    "points": 1,
+                    "order": 39
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "What do the ‘internal or inside” factors mean?",
+                    "answer": "D. Things people cannot see",
+                    "choices": ["A. Wearing make-up", "B. The world around us", "C. Family background", "D. Things people cannot see", "E. Things people can see"],
+                    "points": 1,
+                    "order": 40
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Which statement agrees with the general information in the text?",
+                    "answer": "C. The internal, external and appearance factors lead to success.",
+                    "choices": ["A. Parents are fully responsible for their offspring’s career success.", "B. Children often follow the career choice of parents.", "C. The internal, external and appearance factors lead to success.", "D. Pursuing promotion needs a good team support.", "E. Successful career is only based on academic achievement."],
+                    "points": 1,
+                    "order": 41
+                  },
+                  {
+                    "type": "MULTIPLE_CHOICES",
+                    "content": "Which people can become successful? People who __________.",
+                    "answer": "D. spend less than a fifth of their time relaxing",
+                    "choices": ["A. spend more than a third of their time in passive leisure", "B. have well-educated families", "C. have legal careers", "D. spend less than a fifth of their time relaxing", "E. share the views of successful people"],
+                    "points": 1,
+                    "order": 42
+                  },
+                  {
+                    "content": "According to the Harvard University research, which of the following groups has better social connection?",
+                    "answer": "people with trustable look and smile",
+                    "choices": [
+                      "less advantaged students",
+                      "hard workers",
+                      "people with attractive appearance",
+                      "people with trustable look and smile",
+                      "taller men with lower-pitched voices"
+                    ],
+                    "points": 3,
+                    "order": 43
+                  },
+                  {
+                    "content": "Which statement describes the author’s opinion?",
+                    "answer": "Making an impression on others can be valuable in career.",
+                    "choices": [
+                      "Making an impression on others can be valuable in career.",
+                      "Being talented can make people high achievers.",
+                      "Hard work may lead to high success.",
+                      "Attractive physical appearance can be rewarding.",
+                      "Family background tends to determine future profession."
+                    ],
+                    "points": 3,
+                    "order": 44
+                  }
+            ]
+          },
+          {
+            "description": "Choose the most appropriate word for the game definition.",
+            "content": null,
+            "should_index": true,
+            "english_test_questions": [
+                {
+                    "content": "Riding a bicycle: When someone rides a bicycle, he/she should move it pushing its _____ with his/her _____.",
+                    "answer": "pedals / feet",
+                    "choices": [
+                      "tyres / fingers",
+                      "helmet / hands",
+                      "pedals / feet",
+                      "brakes / feet",
+                      "pedals / hands"
+                    ],
+                    "points": 1,
+                    "order": 45
+                  },
+                  {
+                    "content": "When you exercise, you move your body energetically in order to _____ and remain healthy.",
+                    "answer": "get fit",
+                    "choices": [
+                      "get sober",
+                      "get fit",
+                      "push up",
+                      "sit back",
+                      "run slowly"
+                    ],
+                    "points": 1,
+                    "order": 46
+                  },
+                  {
+                    "content": "Playing cards: To give cards to each person who is playing the game is to deal them. What would you say to know who is the dealer?",
+                    "answer": "Cut the cards to see who starts.",
+                    "choices": [
+                      "Cut the cards to see who starts.",
+                      "You can’t do, it’s cheating.",
+                      "It’s my turn to start the game.",
+                      "Whose turn is it to give the cards out?",
+                      "You have a really good hand."
+                    ],
+                    "points": 3,
+                    "order": 47
+                  }
+            ]
+          }
+        ]
+        
+        },
+        
+        {
+            "title": "Хоёрдугаар хэсэг",
+            "order": 2,
+            "english_test_sections": [
+              {
+                "title": "Word Forms",
+                "description": "Choose the correct form that best fits each blank.",
+                "order": 1,
+                "english_test_task_multiple_blank": [
+                  {
+                    "description": "Fill in the blanks with the correct word form",
+                    "content": "A woman has lived in complete isolation in a large house on a hill in North Yorkshire for the last fifty years. She (a) _____ visits a nearby village to order food and she doesn’t speak to anyone at all except for the shop assistant. She must have been very (b) _____ when she was young and her clothes were probably (c) _____ 50 years ago. She must be 70 years old now. She gives the (d) _____ from the way she behaves that she must have been an (e) _____ once. But nobody in the village knows who she is and they are (f) _____ to find out unless she tells them.",
+                    "english_test_multiple_blank_questions": [
+                      {
+                        "answer": "occasional",
+                        "choices": [
+                          "occasional",
+                          "occasion",
+                          "occasionally",
+                          "occasioned",
+                          "occasioning"
+                        ],
+                        "points": 1,
+                        "order": 1
+                      },
+                      {
+                        "answer": "attractive",
+                        "choices": [
+                          "attraction",
+                          "attractive",
+                          "attract",
+                          "attractively",
+                          "attracting"
+                        ],
+                        "points": 1,
+                        "order": 2
+                      },
+                      {
+                        "answer": "old-fashioned",
+                        "choices": [
+                          "fashioned",
+                          "fashion",
+                          "fashionably",
+                          "fashionable",
+                          "old-fashioned"
+                        ],
+                        "points": 1,
+                        "order": 3
+                      },
+                      {
+                        "answer": "impression",
+                        "choices": [
+                          "impression",
+                          "impressed",
+                          "impressive",
+                          "impressionist",
+                          "impressionable"
+                        ],
+                        "points": 1,
+                        "order": 4
+                      },
+                      {
+                        "answer": "actress",
+                        "choices": [
+                          "acted",
+                          "acting",
+                          "actor",
+                          "act",
+                          "actress"
+                        ],
+                        "points": 1,
+                        "order": 5
+                      },
+                      {
+                        "answer": "likely",
+                        "choices": [
+                          "like",
+                          "likely",
+                          "liked",
+                          "likeable",
+                          "dislike"
+                        ],
+                        "points": 1,
+                        "order": 6
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Synonyms Matching",
+                "description": "Choose the word that has a similar meaning to the underlined word. Match the words (a-h) with their synonyms in each sentence in the column (1-8).",
+                "order": 2,
+                "english_test_task_match": [
+                  {
+                    "description": "Match the phrases",
+                    "english_test_match_questions": [
+                      {
+                        "answer": "matured",
+                        "choices": [
+                          "to grow up",
+                          "intelligent",
+                          "to reveal",
+                          "to empower",
+                          "spacious",
+                          "rude",
+                          "to represent",
+                          "to repent"
+                        ],
+                        "matcher": "He’s matured since he left home.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "intelligent",
+                        "choices": [
+                          "to grow up",
+                          "intelligent",
+                          "to reveal",
+                          "to empower",
+                          "spacious",
+                          "rude",
+                          "to represent",
+                          "to repent"
+                        ],
+                        "matcher": "He thinks he is smarter than Sarah is.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "reveal",
+                        "choices": [
+                          "to grow up",
+                          "intelligent",
+                          "to reveal",
+                          "to empower",
+                          "spacious",
+                          "rude",
+                          "to represent",
+                          "to repent"
+                        ],
+                        "matcher": "The officer refused to disclose the report of the investigation.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "empower",
+                        "choices": [
+                          "to grow up",
+                          "intelligent",
+                          "to reveal",
+                          "to empower",
+                          "spacious",
+                          "rude",
+                          "to represent",
+                          "to repent"
+                        ],
+                        "matcher": "Everyone has entitled to their own opinion.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "spacious",
+                        "choices": [
+                          "to grow up",
+                          "intelligent",
+                          "to reveal",
+                          "to empower",
+                          "spacious",
+                          "rude",
+                          "to represent",
+                          "to repent"
+                        ],
+                        "matcher": "The car has a surprisingly roomy saloon.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "rude",
+                        "choices": [
+                          "to grow up",
+                          "intelligent",
+                          "to reveal",
+                          "to empower",
+                          "spacious",
+                          "rude",
+                          "to represent",
+                          "to repent"
+                        ],
+                        "matcher": "The programme contains language which some viewers find offensive.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "represent",
+                        "choices": [
+                          "to grow up",
+                          "intelligent",
+                          "to reveal",
+                          "to empower",
+                          "spacious",
+                          "rude",
+                          "to represent",
+                          "to repent"
+                        ],
+                        "matcher": "Van Gogh illustrated still life in vivid movement.",
+                        "points": 1
+                      },
+                      {
+                        "answer": "repent",
+                        "choices": [
+                          "to grow up",
+                          "intelligent",
+                          "to reveal",
+                          "to empower",
+                          "spacious",
+                          "rude",
+                          "to represent",
+                          "to repent"
+                        ],
+                        "matcher": "I regret letting him go out late night.",
+                        "points": 1
+                      }
+                    ]
+                  }
+                ]
+              },
+              {
+                "title": "Basketball Basics",
+                "description": "Choose the best word to fit each blank.",
+                "order": 3,
+                "english_test_task_multiple_blank": [
+                  {
+                    "description": "Fill in the blanks with the correct word",
+                    "content": "The (a) _____ of one of America’s favourite sports are a debatable and controversial topic, but the story goes that basketball was (b) _____ by James Naismith in 1891. What is most surprising is that he was not from the USA as most people seem to think. He was, in fact, Canadian. Basketball is a popular team sport in which the players from each (c) _____ need to try to (d) _____ points by putting a large bouncy ball into a small hoop. Either two or three points are given to teams depending on their distance from the hoop while shooting. Basketball players are usually very tall and strong. It is clear that (e) _____ is an advantage, but agility and awareness are also essential to become a(n) (f) _____ basketball player.",
+                    "english_test_multiple_blank_questions": [
+                      {
+                        "answer": "origins",
+                        "choices": [
+                          "basics",
+                          "conception",
+                          "starts",
+                          "inception",
+                          "origins"
+                        ],
+                        "points": 1,
+                        "order": 1
+                      },
+                      {
+                        "answer": "created",
+                        "choices": [
+                          "designed",
+                          "fabricated",
+                          "created",
+                          "fashioned",
+                          "produced"
+                        ],
+                        "points": 1,
+                        "order": 2
+                      },
+                      {
+                        "answer": "side",
+                        "choices": [
+                          "side",
+                          "half",
+                          "set",
+                          "part",
+                          "form"
+                        ],
+                        "points": 1,
+                        "order": 3
+                      },
+                      {
+                        "answer": "score",
+                        "choices": [
+                          "record",
+                          "score",
+                          "mark",
+                          "acquire",
+                          "obtain"
+                        ],
+                        "points": 1,
+                        "order": 4
+                      },
+                      {
+                        "answer": "height",
+                        "choices": [
+                          "length",
+                          "width",
+                          "weight",
+                          "height",
+                          "building"
+                        ],
+                        "points": 1,
+                        "order": 5
+                      },
+                      {
+                        "answer": "able",
+                        "choices": [
+                          "inept",
+                          "accessible",
+                          "able",
+                          "incompetent",
+                          "valuable"
+                        ],
+                        "points": 1,
+                        "order": 6
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+          
+    ]
+  }
+
+  
