@@ -1,13 +1,21 @@
-FROM node:18
+FROM node:16-buster
 
-WORKDIR /usr/src/app
+RUN mkdir /root/.aws
+COPY .aws/* /root/.aws/
+
+WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install
+RUN npm install -g ts-node nodemon && npm install
 
 COPY . .
 
-EXPOSE 5000
+ENV TZ Asia/Singapore
 
-CMD ["npm", "start"]
+ARG npm_config_cache
+ENV npm_config_cache /app/npmcache
+
+RUN apt-get update -y && apt-get install -y openssl
+
+CMD ["npm", "run", "dev"]
