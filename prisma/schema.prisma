@@ -6,7 +6,7 @@ generator client {
 
 datasource db {
   provider = "postgresql"
-  url      = "postgresql://postgres:Power9911@35.236.146.80:5432/lever-db"
+  url      = "postgresql://postgres:power9911@34.136.203.176:5432/lever-db"
 }
 
 model User {
